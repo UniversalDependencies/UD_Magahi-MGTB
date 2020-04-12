@@ -1,45 +1,48 @@
-# sent_id = s1592
-# text = राजा सुन के खिसिअयलन नऽ । केंवाड़ी बंद कर लेलन आउ परन ( प्रतिज्ञा ) कैलन कि जब तक हमर दुख कोई नऽ बुझत तब तक केंवाड़ी न खोलब ।
+# sent_id = s1592a
+# text = राजा सुन के खिसिअयलन नऽ ।
 1	राजा	राजा	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 2	सुन	सुनना	VERB	VERB	Aspect=Imp|Gender=Masc|Tense=Pres	4	advcl	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	खिसिअयलन	खिसियाना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 5	नऽ	नऽ	PART	PART	_	4	advmod	_	_
 6	।	।	PUNCT	PUNCT	_	4	punct	_	_
-7	केंवाड़ी	केवाड़ी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
-8	बंद	बंद	VERB	VERB	_	_	_	_	_
-9	कर	करना	AUX	AUX	Aspect=Imp|Tense=Past	8	aux	_	_
-10	लेलन	लेना	AUX	AUX	Aspect=Imp|Tense=Past	4	acl	_	_
-11	आउ	आउ	CCONJ	CCONJ	_	16	cc	_	_
-12	परन	परन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	_	_	_	_
-13	(	(	SYM	SYM	_	14	punct	_	_
-14	प्रतिज्ञा	प्रतिज्ञा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	12	nsubj	_	_
-15	)	)	SYM	SYM	_	14	punct	_	_
-16	कैलन	करना	VERB	VERB	Aspect=Imp|Tense=Past	10	conj	_	_
-17	कि	कि	SCONJ	SCONJ	_	24	mark	_	_
-18	जब	जब	PRON	PRON	_	24	obl	_	_
-19	तक	तक	PART	PART	_	18	case	_	_
-20	हमर	हमर	PRON	PRON	Case=Acc|Number=Sing|Person=1	21	amod	_	_
-21	दुख	दुख	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	24	dobj	_	_
-22	कोई	कोई	PRON	PRON	Number=Plur|Person=3	24	nsubj	_	_
-23	नऽ	नऽ	PART	PART	_	24	advmod	_	_
-24	बुझत	बुझना	VERB	VERB	Aspect=Imp|Tense=Past	16	conj	_	_
-25	तब	तब	PRON	PRON	_	29	obl	_	_
-26	तक	तक	PART	PART	_	25	case	_	_
-27	केंवाड़ी	केवाड़ी	NOUN	NOUN	Case=Acc|Number=Sing	29	dobj	_	_
-28	न	न	PART	PART	_	29	advmod	_	_
-29	खोलब	खोलना	VERB	VERB	Aspect=Imp|Tense=Fut	24	conj	_	_
-30	।	।	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = s1592b
+# text = केंवाड़ी बंद कर लेलन आउ परन ( प्रतिज्ञा ) कैलन कि जब तक हमर दुख कोई नऽ बुझत तब तक केंवाड़ी न खोलब ।
+1	केंवाड़ी	केवाड़ी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	obj	_	_
+2	बंद	बंद	ADJ	ADJ	_	3	conjunct	_	_
+3	कर	करना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
+4	लेलन	लेना	AUX	AUX	Aspect=Imp|Tense=Past	3	compound	_	_
+5	आउ	आउ	CCONJ	CCONJ	_	10	cc	_	_
+6	परन	परन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	nsubj	_	_
+7	(	(	SYM	SYM	_	8	punct	_	_
+8	प्रतिज्ञा	प्रतिज्ञा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	nsubj	_	_
+9	)	)	SYM	SYM	_	8	punct	_	_
+10	कैलन	करना	VERB	VERB	Aspect=Imp|Tense=Past	3	conj	_	_
+11	कि	कि	SCONJ	SCONJ	_	18	mark	_	_
+12	जब	जब	PRON	PRON	_	18	obl	_	_
+13	तक	तक	PART	PART	_	12	case	_	_
+14	हमर	हमर	PRON	PRON	Case=Acc|Number=Sing|Person=1	15	amod	_	_
+15	दुख	दुख	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	18	dobj	_	_
+16	कोई	कोई	PRON	PRON	Number=Plur|Person=3	18	nsubj	_	_
+17	नऽ	नऽ	PART	PART	_	18	advmod	_	_
+18	बुझत	बुझना	VERB	VERB	Aspect=Imp|Tense=Past	10	conj	_	_
+19	तब	तब	PRON	PRON	_	23	obl	_	_
+20	तक	तक	PART	PART	_	19	case	_	_
+21	केंवाड़ी	केवाड़ी	NOUN	NOUN	Case=Acc|Number=Sing	23	dobj	_	_
+22	न	न	PART	PART	_	23	advmod	_	_
+23	खोलब	खोलना	VERB	VERB	Aspect=Imp|Tense=Fut	18	conj	_	_
+24	।	।	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = s1593
 # text = अइसहीं भुखे - पिआसे कोठरी में बंद रहइत हलन ।
 1	अइसहीं	अइसहीं	PART	PART	_	7	advmod	_	_
-2	भुखे	भुखे	NOUN	NOUN	Number=Sing|Person=3	3	punct	_	_
-3	-	-	PUNCT	PUNCT	_	_	_	_	_
-4	पिआसे	पिआसे	NOUN	NOUN	Number=Sing|Person=3	7	dobj	_	_
-5	कोठरी	कोठरी	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	6	case	_	_
-6	में	में	ADP	ADP	_	_	_	_	_
-7	बंद	बंद	VERB	VERB	Aspect=Imp|Tense=Past	_	_	_	_
+2	भुखे	भुखे	ADV	ADV	Number=Sing|Person=3	7	advmod	_	_
+3	-	-	PUNCT	PUNCT	_	2	punct	_	_
+4	पिआसे	पिआसे	ADV	ADV	Number=Sing|Person=3	2	compound	_	_
+5	कोठरी	कोठरी	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	7	iobj	_	_
+6	में	में	ADP	ADP	_	5	case	_	_
+7	बंद	बंद	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 8	रहइत	रहना	AUX	AUX	Aspect=Imp|Tense=Past	7	aux	_	_
 9	हलन	है	AUX	AUX	Aspect=Imp|Tense=Past	7	aux	_	_
 10	।	।	PUNCT	PUNCT	_	7	punct	_	_
@@ -48,22 +51,22 @@
 # text = एक रोज के बात हे कि आधा रात में ब्रह्माजी के सिंहासन डोल गेल तो ऊ उठ के अयलन आउ केंवाड़ी खोले ला कहलन ।
 1	एक	एक	NUM	NUM	_	2	nummod	_	_
 2	रोज	रोज	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	बात	बात	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	0	root	_	_
 5	हे	है	VERB	VERB	_	4	cop	_	_
 6	कि	कि	SCONJ	SCONJ	_	13	mark	_	_
 7	आधा	आधा	NUM	NUM	_	8	null	_	_
-8	रात	रात	NOUN	NOUN	Number=Sing|Person=3	_	_	_	_
+8	रात	रात	NOUN	NOUN	Number=Sing|Person=3	13	iobj	_	_
 9	में	में	ADP	ADP	_	8	case	_	_
 10	ब्रह्माजी	ब्रह्माजी	PROPN	PROPN	Case=Gen|Number=Sing|Person=3	12	nmod	_	_
-11	के	चीरना	ADP	ADP	_	10	case	_	_
+11	के	के	ADP	ADP	_	10	case	_	_
 12	सिंहासन	सिंहासन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	13	nsubj	_	_
 13	डोल	डोलना	VERB	VERB	Aspect=Perf|Tense=Past	4	conj	_	_
 14	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	13	aux	_	_
 15	तो	तो	PRON	PRON	_	24	mark	_	_
 16	ऊ	ऊ	PRON	PRON	Case=Nom	19	dobj	_	_
-17	उठ	उठना	VERB	VERB	Aspect=Imp|Tense=Pres	18	case	_	_
-18	के	चीरना	AUX	AUX	_	_	_	_	_
+17	उठ	उठना	VERB	VERB	Aspect=Imp|Tense=Pres	19	advcl	_	_
+18	के	के	AUX	AUX	_	17	case	_	_
 19	अयलन	आना	VERB	VERB	Aspect=Imp|Tense=Past	13	conj	_	_
 20	आउ	आउ	CCONJ	CCONJ	_	24	cc	_	_
 21	केंवाड़ी	केवाड़ी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	22	null	_	_
@@ -117,7 +120,7 @@
 # text = एतना सुन के राजा केंबाड़ी खोललन ।
 1	एतना	एतना	DET	DET	Case=Nom|Number=Plur|Person=3	2	det	_	_
 2	सुन	सुनना	VERB	VERB	Aspect=Imp|Tense=Past	6	advcl	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	राजा	राजा	NOUN	NOUN	Case=Nom	6	nsubj	_	_
 5	केंबाड़ी	केंबाड़ी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	dobj	_	_
 6	खोललन	खोलना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
@@ -144,10 +147,10 @@
 1	ओकरे	ओकरे	PRON	PRON	Case=Loc|Number=Sing|Person=3	3	iobj	_	_
 2	में	में	ADP	ADP	_	1	case	_	_
 3	जा	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	9	advcl	_	_
-4	के	चीरना	AUX	AUX	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	तू	तू	PRON	PRON	Case=Nom|Number=Sing|Person=2	9	nsubj	_	_
-6	पूजा	पूजा	NOUN	NOUN	Case=Acc|Number=Sing	9	dobj	_	_
-7	-	-	PUNCT	PUNCT	_	6	null	_	_
+6	पूजा	पूजा	NOUN	NOUN	Case=Acc|Number=Sing	9	conjunct	_	_
+7	-	-	PUNCT	PUNCT	_	6	punct	_	_
 8	पाठ	पाठ	NOUN	NOUN	Case=Acc|Number=Sing	6	compound	_	_
 9	करिहँऽ	करना	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
 10	।	।	PUNCT	PUNCT	_	9	punct	_	_
@@ -155,18 +158,18 @@
 # sent_id = s1600
 # text = जब ध्यान लगैबऽ तऽ सोना के एगो चिरई तोर बांह पर आन के बइठत ।
 1	जब	जब	PRON	PRON	_	3	obl	_	_
-2	ध्यान	ध्यान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	dobj	_	_
+2	ध्यान	ध्यान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	conjunct	_	_
 3	लगैबऽ	लगाना	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
 4	तऽ	तऽ	SCONJ	SCONJ	_	14	obl	_	_
 5	सोना	सोना	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	एगो	एगो	NUM	NUM	_	8	nummod	_	_
 8	चिरई	चिरई	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
 9	तोर	तोर	PRON	PRON	Case=Acc|Number=Sing|Person=2	10	nmod	_	_
 10	बांह	बांह	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	14	iobj	_	_
 11	पर	पर	ADP	ADP	_	10	case	_	_
 12	आन	आना	VERB	VERB	Aspect=Imp|Tense=Fut	14	advcl	_	_
-13	के	चीरना	AUX	AUX	_	12	case	_	_
+13	के	के	ADP	ADP	_	12	case	_	_
 14	बइठत	बइठना	VERB	VERB	Aspect=Imp|Tense=Fut	3	acl	_	_
 15	।	।	PUNCT	PUNCT	_	14	null	_	_
 
@@ -174,28 +177,28 @@
 # text = परी गमछा के तबलची पर फेंक देलकई ।
 1	परी	परी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
 2	गमछा	गमछा	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	6	dobj	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	तबलची	तबलची	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	6	iobj	_	_
 5	पर	पर	ADP	ADP	_	4	case	_	_
 6	फेंक	फेंकना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
-7	देलकई	देना	AUX	AUX	Aspect=Perf|Tense=Past	6	aux	_	_
+7	देलकई	देना	VERB	VERB	Aspect=Perf|Tense=Past	6	compound	_	_
 8	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = s1602
 # text = ओकरा पकड़ के तू निगल जइहँऽ ।
 1	ओकरा	ओकरा	PRON	PRON	Case=Acc|Number=Sing|Person=3	5	dobj	_	_
 2	पकड़	पकड़ना	VERB	VERB	Aspect=Imp|Tense=Fut	5	advcl	_	_
-3	के	चीरना	AUX	AUX	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	तू	तू	PRON	PRON	Case=Nom|Number=Sing|Person=2	5	nsubj	_	_
 5	निगल	निगलना	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
-6	जइहँऽ	जाना	AUX	AUX	Aspect=Imp|Tense=Fut	5	aux	_	_
+6	जइहँऽ	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	5	compound	_	_
 7	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1603
 # text = ई सुन के राजा उठलन आउ ओही जंगल में जा पहुँचलन ।
 1	ई	ई	DET	DET	Case=Nom|Number=Sing|Person=3	2	dobj	_	_
 2	सुन	सुनना	VERB	VERB	Aspect=Imp|Tense=Past	5	advcl	_	_
-3	के	चीरना	AUX	AUX	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	राजा	राजा	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 5	उठलन	उठना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 6	आउ	आउ	CCONJ	CCONJ	_	10	cc	_	_
@@ -203,7 +206,7 @@
 8	जंगल	जगना	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	10	iobj	_	_
 9	में	में	ADP	ADP	_	8	case	_	_
 10	जा	जाना	VERB	VERB	Aspect=Imp|Tense=Past	5	conj	_	_
-11	पहुँचलन	पहुचना	AUX	AUX	Aspect=Imp|Tense=Past	10	aux	_	_
+11	पहुँचलन	पहुचना	VERB	VERB	Aspect=Imp|Tense=Past	10	compound	_	_
 12	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1604
@@ -211,51 +214,51 @@
 1	मंदिर	मंदिर	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	3	obl	_	_
 2	में	में	ADP	ADP	_	1	case	_	_
 3	जाके	जाना	VERB	VERB	Aspect=Imp|Tense=Past	7	advcl	_	_
-4	पुजा	पुजा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	7	compound	_	_
+4	पुजा	पुजा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	7	conjunct	_	_
 5	-	-	PUNCT	PUNCT	_	4	punct	_	_
 6	पाठ	पाठ	NOUN	NOUN	Case=Acc|Person=3	4	compound	_	_
 7	कैलन	करना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 8	आउ	आउ	CCONJ	CCONJ	_	10	cc	_	_
-9	ध्यान	ध्यान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	compound	_	_
+9	ध्यान	ध्यान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	conjunct	_	_
 10	लगौलन	लगाना	VERB	VERB	Aspect=Imp|Tense=Past	7	conj	_	_
 11	तब	तब	PRON	PRON	_	19	obl	_	_
 12	एगो	एगो	NUM	NUM	_	13	nummod	_	_
 13	चिरईं	चिरईं	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
 14	आन	आना	VERB	VERB	Aspect=Imp|Tense=Past	19	advcl	_	_
-15	के	चीरना	AUX	AUX	_	14	null	_	_
+15	के	के	ADP	ADP	_	14	null	_	_
 16	उनकर	उनकर	PRON	PRON	Case=Acc|Number=Sing|Person=3	17	nmod	_	_
 17	बाँह	बाँह	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	19	obl	_	_
 18	पर	पर	ADP	ADP	_	17	case	_	_
 19	बइठल	बइठना	VERB	VERB	Aspect=Imp|Tense=Past	7	conj	_	_
 20	बाकि	बाकि	CCONJ	CCONJ	_	22	cc	_	_
-21	ध्यान	ध्यान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	22	compound	_	_
+21	ध्यान	ध्यान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	22	conjunct	_	_
 22	लगल	लगना	VERB	VERB	Aspect=Imp|Tense=Past	29	advcl	_	_
-23	रहे	रहना	AUX	AUX	_	22	aux	_	_
+23	रहे	रहना	VERB	VERB	_	22	compound	_	_
 24	से	से	ADP	ADP	_	22	case	_	_
 25	ऊ	ऊ	PRON	PRON	Case=Nom|Number=Sing|Person=3	29	nsubj	_	_
 26	चिरईं	चिरईं	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	29	dobj	_	_
-27	के	चीरना	ADP	ADP	_	26	case	_	_
-28	न	न	PART	PART	_	29	advmod	_	_
+27	के	के	ADP	ADP	_	26	case	_	_
+28	न	न	PART	PART	_	29	neg	_	_
 29	पकड़लन	पकड़ना	VERB	VERB	Aspect=Imp|Tense=Past	19	conj	_	_
 30	आउ	आउ	CCONJ	CCONJ	_	32	cc	_	_
 31	चिरईं	चिरईं	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	32	nsubj	_	_
 32	ऊड़	ऊड़ना	VERB	VERB	Aspect=Perf|Tense=Past	29	conj	_	_
-33	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	32	aux	_	_
+33	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	32	compound	_	_
 34	।	।	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = s1605
 # text = जब राजा के ध्यान दुटल तऽ जोर - जोर से रोवे लगलन ।
 1	जब	जब	PRON	PRON	_	5	obl	_	_
 2	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	ध्यान	ध्यान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	dobj	_	_
 5	दुटल	दुटना	VERB	VERB	Aspect=Perf|Tense=Past	11	acl	_	_
 6	तऽ	तऽ	SCONJ	SCONJ	_	11	mark	_	_
 7	जोर	जोर	ADV	ADV	_	11	advmod	_	_
 8	-	-	PUNCT	PUNCT	_	7	punct	_	_
-9	जोर	जोर	ADV	ADV	_	7	advmod	_	_
-10	से	से	ADP	ADP	_	_	_	_	_
-11	रोवे	रोना	VERB	VERB	Aspect=Imp|Tense=Past	_	_	_	_
+9	जोर	जोर	ADV	ADV	_	7	compound	_	_
+10	से	से	ADP	ADP	_	7	case	_	_
+11	रोवे	रोना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 12	लगलन	लगना	AUX	AUX	Aspect=Imp|Tense=Past	11	aux	_	_
 13	।	।	PUNCT	PUNCT	_	11	punct	_	_
 
@@ -264,13 +267,13 @@
 1	उनकर	उनकर	PRON	PRON	Case=Acc|Number=Sing|Person=3	2	nmod	_	_
 2	रोआई	रोआई	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	dobj	_	_
 3	सुन	सुनना	VERB	VERB	Aspect=Imp|Tense=Past	10	advcl	_	_
-4	के	चीरना	AUX	AUX	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	फिन	फिन	CCONJ	CCONJ	_	9	advmod	_	_
 6	साधु	साधु	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
 7	बेस	बेस	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	nmod	_	_
 8	में	में	ADP	ADP	_	7	case	_	_
 9	ब्रह्माजी	ब्रह्माजी	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
-10	अयलन	आना	VERB	VERB	Aspect=Imp|Tense=Past	_	_	_	_
+10	अयलन	आना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 11	आउ	आउ	CCONJ	CCONJ	_	12	cc	_	_
 12	कहलन	कहना	VERB	VERB	Aspect=Imp|Tense=Past	10	conj	_	_
 13	कि	कि	SCONJ	SCONJ	_	18	mark	_	_
@@ -279,10 +282,10 @@
 16	तूँ	तूँ	PRON	PRON	_	18	nsubj	_	_
 17	वइसहीं	वइसहीं	ADV	ADV	_	18	advmod	_	_
 18	करऽ	करना	VERB	VERB	Aspect=Imp|Tense=Pres	12	acl	_	_
-19	बाकि	बाकि	CCONJ	CCONJ	_	23	advmod	_	_
+19	बाकि	बाकि	CCONJ	CCONJ	_	23	cc	_	_
 20	अबरी	अबरी	ADV	ADV	_	23	advmod	_	_
 21	चिरई	चिरई	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	23	dobj	_	_
-22	न	न	PART	PART	_	23	advcl	_	_
+22	न	न	PART	PART	_	23	neg	_	_
 23	निगलबऽ	निगलना	VERB	VERB	Aspect=Imp|Tense=Fut	18	conj	_	_
 24	तऽ	तऽ	SCONJ	SCONJ	_	27	obl	_	_
 25	लइका	लइका	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	27	iobj	_	_
@@ -297,7 +300,7 @@
 3	नेहा	नेहाना	VERB	VERB	Aspect=Imp|Tense=Past	10	advcl	_	_
 4	-	-	PUNCT	PUNCT	_	3	null	_	_
 5	धोआ	धोआना	VERB	VERB	Aspect=Imp|Tense=Past	3	null	_	_
-6	के	चीरना	AUX	AUX	_	3	case	_	_
+6	के	के	AUX	AUX	_	3	case	_	_
 7	पुजा	पुजा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	compound	_	_
 8	-	-	PUNCT	PUNCT	_	7	punct	_	_
 9	पाठ	पाठ	NOUN	NOUN	Case=Acc|Tense=Past	7	conj	_	_
@@ -307,13 +310,13 @@
 13	लगौलन	लगाना	VERB	VERB	Aspect=Imp|Tense=Past	10	conj	_	_
 14	तो	तो	PRON	PRON	_	21	mark	_	_
 15	सोना	सोना	NOUN	NOUN	Case=Gen|Person=3	17	nmod	_	_
-16	के	चीरना	ADP	ADP	_	15	case	_	_
+16	के	के	ADP	ADP	_	15	case	_	_
 17	चिरई	चिरई	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
 18	आनके	आना	VERB	VERB	Aspect=Imp|Tense=Past	21	advcl	_	_
 19	बाँह	बाँह	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	21	iobj	_	_
 20	पर	पर	ADP	ADP	_	19	case	_	_
 21	बइठ	बइठना	VERB	VERB	Aspect=Imp|Tense=Past	10	acl	_	_
-22	गेल	जाना	AUX	AUX	Aspect=Imp|Tense=Past	21	aux	_	_
+22	गेल	जाना	VERB	VERB	Aspect=Imp|Tense=Past	21	compound	_	_
 23	।	।	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = s1608
@@ -321,9 +324,9 @@
 1	राजा	राजा	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 2	झट-पट	झट-पट	ADV	ADV	_	5	advmod	_	_
 3	चिरई	चिरई	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	पकड़	पकड़ना	VERB	VERB	Aspect=Imp|Tense=Past	7	advcl	_	_
-6	के	चीरना	AUX	AUX	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	निगल	निगलना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 8	गेलन	जाना	AUX	AUX	Aspect=Imp|Tense=Past	7	aux	_	_
 9	।	।	PUNCT	PUNCT	_	7	punct	_	_
@@ -334,18 +337,18 @@
 2	पहिल	पहिला	ADP	ADP	_	4	case	_	_
 3	ही	ही	PART	PART	_	2	mark	_	_
 4	चेता	चेता	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
-5	देलकथिन	देना	AUX	AUX	Aspect=Perf|Tense=Past	4	aux	_	_
+5	देलकथिन	देना	VERB	VERB	Aspect=Perf|Tense=Past	4	compound	_	_
 6	हल	है	AUX	AUX	Tense=Past	4	aux	_	_
 7	कि	कि	SCONJ	SCONJ	_	15	mark	_	_
 8	लइका	लइका	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
-9	के	चीरना	ADP	ADP	_	8	case	_	_
+9	के	के	ADP	ADP	_	8	case	_	_
 10	कोई	कोई	PRON	PRON	Case=Nom|Number=Sing|Person=3	15	nsubj	_	_
 11	बारह	बारह	NUM	NUM	Case=Acc|Person=3	12	nummod	_	_
 12	बरस	बरस	NOUN	NOUN	Case=Acc|Person=3	15	iobj	_	_
 13	तक	तक	PART	PART	_	12	mark	_	_
-14	न	न	PART	PART	_	15	advmod	_	_
+14	न	न	PART	PART	_	15	neg	_	_
 15	देखत	देखना	VERB	VERB	Aspect=Imp|Tense=Fut	4	acl	_	_
-16	न	न	PART	PART	_	19	advmod	_	_
+16	न	न	PART	PART	_	19	neg	_	_
 17	ऊ	ऊ	PRON	PRON	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 18	बाहर	बाहर	NOUN	NOUN	Case=Loc|Person=3	19	compound	_	_
 19	निकलत	निकलना	VERB	VERB	Aspect=Imp|Tense=Fut	15	conj	_	_
@@ -354,9 +357,9 @@
 # sent_id = s1610
 # text = राजा घरे आन के राजमहल में रानी भिरू गेलन ।
 1	राजा	राजा	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
-2	घरे	घरे	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	3	null	_	_
+2	घरे	घरे	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	3	iobj	_	_
 3	आन	आना	VERB	VERB	Aspect=Imp|Tense=Past	9	advcl	_	_
-4	के	चीरना	AUX	AUX	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	राजमहल	राजमहल	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
 6	में	में	ADP	ADP	_	5	case	_	_
 7	रानी	रानी	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
@@ -375,15 +378,15 @@
 
 # sent_id = s1612
 # text = तबलची गमछा के चपोत के जेब मै रख देलका ।
-1	तबलची	तबलची	ADJ	ADJ	Case=Acc	2	nsubj	_	_
+1	तबलची	तबलची	ADJ	ADJ	Case=Acc	2	amod	_	_
 2	गमछा	गमछा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	dobj	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	चपोत	चपोतना	VERB	VERB	Aspect=Imp|Tense=Past	8	advcl	_	_
-5	के	चीरना	AUX	AUX	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	जेब	जेब	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	8	obl	_	_
 7	मै	मै	ADP	ADP	_	6	case	_	_
 8	रख	रखना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
-9	देलका	देना	AUX	AUX	Aspect=Imp|Tense=Past	8	null	_	_
+9	देलका	देना	VERB	VERB	Aspect=Imp|Tense=Past	8	compound	_	_
 10	।	।	PUNCT	PUNCT	_	9	null	_	_
 
 # sent_id = s1613
@@ -391,21 +394,21 @@
 1	रानी	रानी	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	iobj	_	_
 2	आउ	आउ	CCONJ	CCONJ	_	3	cc	_	_
 3	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	conj	_	_
-4	के	चीरना	ADP	ADP	_	1	case	_	_
+4	के	के	ADP	ADP	_	1	case	_	_
 5	महल	महल	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 6	में	में	ADP	ADP	_	5	case	_	_
 7	सबहे	सबहे	DET	DET	_	8	amod	_	_
-8	इंतजाम	इंतजाम	NOUN	NOUN	Case=Acc	9	compound	_	_
+8	इंतजाम	इंतजाम	NOUN	NOUN	Case=Acc	9	conjunct	_	_
 9	कर	करना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
-10	देल	देना	AUX	AUX	Aspect=Imp|Tense=Past	9	aux	_	_
-11	गेल	जाना	AUX	AUX	Aspect=Imp|Tense=Past	10	aux	_	_
+10	देल	देना	VERB	VERB	Aspect=Imp|Tense=Past	9	compound	_	_
+11	गेल	जाना	VERB	VERB	Aspect=Imp|Tense=Past	10	compound	_	_
 12	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1614
 # text = लड़का चनरमा के ज्योति नियन हल ।
 1	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	dobj	_	_
 2	चनरमा	चनरमा	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	ज्योति	ज्योति	NOUN	NOUN	Case=Acc|Person=3	0	root	_	_
 5	नियन	नियन	ADP	ADP	_	4	case	_	_
 6	हल	है	AUX	AUX	Aspect=Imp|Tense=Past	4	cop	_	_
@@ -420,20 +423,20 @@
 5	लड़का	लड़का	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 6	जिद्द	जिद्द	NOUN	NOUN	Case=Acc|Person=3	7	compound	_	_
 7	रोप	रोपना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
-8	देलक	देना	AUX	AUX	Aspect=Imp|Tense=Past	7	aux	_	_
+8	देलक	देना	VERB	VERB	Aspect=Imp|Tense=Past	7	compound	_	_
 9	कि	कि	SCONJ	SCONJ	_	12	mark	_	_
 10	हम	हम	PRON	PRON	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
-11	सिकार	सिकार	NOUN	NOUN	Case=Acc|Person=3	12	compound	_	_
+11	सिकार	सिकार	NOUN	NOUN	Case=Acc|Person=3	12	conjunct	_	_
 12	खेले	खेलना	VERB	VERB	Aspect=Imp	7	acl	_	_
-13	जायब	जाना	AUX	AUX	Aspect=Imp|Tense=Fut	12	aux	_	_
+13	जायब	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	12	compound	_	_
 14	।	।	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = s1616
 # text = अगर न जाय देवऽ तो हम तरवार से अपन गरदन काट के मर जायब ।
 1	अगर	अगर	SCONJ	SCONJ	_	3	mark	_	_
-2	न	न	PART	PART	_	3	advmod	_	_
+2	न	न	PART	PART	_	3	neg	_	_
 3	जाय	जाना	VERB	VERB	Aspect=Imp	13	advcl	_	_
-4	देवऽ	देना	AUX	AUX	Aspect=Imp|Tense=Fut	3	aux	_	_
+4	देवऽ	देना	VERB	VERB	Aspect=Imp|Tense=Fut	3	compound	_	_
 5	तो	तो	PRON	PRON	_	13	mark	_	_
 6	हम	हम	PRON	PRON	Case=Nom|Number=Sing|Person=3	13	nsubj	_	_
 7	तरवार	तरवार	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	11	iobj	_	_
@@ -441,40 +444,40 @@
 9	अपन	अपन	PRON	PRON	Case=Gen|Person=1	10	amod	_	_
 10	गरदन	गरदन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	dobj	_	_
 11	काट	काटना	VERB	VERB	Aspect=Perf	13	advcl	_	_
-12	के	चीरना	AUX	AUX	_	11	case	_	_
+12	के	के	ADP	ADP	_	11	case	_	_
 13	मर	मरना	VERB	VERB	Aspect=Imp	0	root	_	_
-14	जायब	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	13	aux	_	_
+14	जायब	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	13	compound	_	_
 15	।	।	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = s1617
 # text = रानी लचार होके हुकुम दे देलन ।
 1	रानी	रानी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
-2	लचार	लचार	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	compound	_	_
+2	लचार	लचार	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	conjunct	_	_
 3	होके	होना	VERB	VERB	Aspect=Perf	5	advcl	_	_
-4	हुकुम	हुकुम	NOUN	NOUN	Case=Acc|Person=3	5	compound	_	_
+4	हुकुम	हुकुम	NOUN	NOUN	Case=Acc|Person=3	5	conjunct	_	_
 5	दे	देना	VERB	VERB	Aspect=Perf	0	root	_	_
-6	देलन	देना	AUX	AUX	Aspect=Perf|Tense=Past	5	aux	_	_
+6	देलन	देना	VERB	VERB	Aspect=Perf|Tense=Past	5	compound	_	_
 7	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1618
 # text = लड़का के साथे बड़ी मानी फउज लगा देल गेल ।
 1	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	dobj	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	साथे	साथे	ADP	ADP	_	1	case	_	_
-4	बड़ी	बड़ी	ADJ	ADJ	_	_	_	_	_
+4	बड़ी	बड़ी	ADJ	ADJ	_	5	amod	_	_
 5	मानी	मानी	NUM	NUM	_	6	nummod	_	_
-6	फउज	फउज	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	7	compound	_	_
+6	फउज	फउज	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	7	dobj	_	_
 7	लगा	लगाना	VERB	VERB	Aspect=Perf	0	root	_	_
-8	देल	देना	AUX	AUX	Aspect=Perf	7	aux	_	_
-9	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	8	aux	_	_
+8	देल	देना	VERB	VERB	Aspect=Perf	7	compound	_	_
+9	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	8	compound	_	_
 10	।	।	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = s1619
 # text = राजा के बेटा सिकार करइत एगो घनघोर जंगल में पहुंचलन आउ उहई रात हो गेल ।
 1	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	बेटा	बेटा	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
-4	सिकार	सिकार	NOUN	NOUN	Case=Acc|Person=3	5	compound	_	_
+4	सिकार	सिकार	NOUN	NOUN	Case=Acc|Person=3	5	conjunct	_	_
 5	करइत	करना	VERB	VERB	Aspect=Imp	10	advcl	_	_
 6	एगो	एगो	NUM	NUM	_	8	nummod	_	_
 7	घनघोर	घनघोर	ADJ	ADJ	_	8	amod	_	_
@@ -485,7 +488,7 @@
 12	उहई	उहई	DET	DET	Case=Loc	14	det	_	_
 13	रात	रात	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	obl	_	_
 14	हो	होना	VERB	VERB	Aspect=Perf	10	conj	_	_
-15	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	14	aux	_	_
+15	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	14	compound	_	_
 16	।	।	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = s1620
@@ -494,35 +497,35 @@
 2	एगो	एगो	NUM	NUM	_	3	nummod	_	_
 3	पोखरा	पोखरा	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	6	iobj	_	_
 4	पर	पर	ADP	ADP	_	3	case	_	_
-5	पड़ाव	पड़ाव	NOUN	NOUN	Case=Acc|Person=3	6	compound	_	_
+5	पड़ाव	पड़ाव	NOUN	NOUN	Case=Acc|Person=3	6	conjunct	_	_
 6	गिरा	गिराना	VERB	VERB	Aspect=Perf	0	root	_	_
-7	देलन	देना	AUX	AUX	Aspect=Perf|Tense=Past	6	aux	_	_
+7	देलन	देना	VERB	VERB	Aspect=Perf|Tense=Past	6	compound	_	_
 8	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = s1621
 # text = सिपाही लइका के बीच में ।
 1	सिपाही	सिपाही	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 2	लइका	लइका	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	iobj	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	बीच	बीच	NOUN	NOUN	Case=Loc|Person=3	0	root	_	_
 5	में	में	ADP	ADP	_	4	case	_	_
 6	।	।	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = s1622
 # text = ﻿अहेरी कुमार आउ बलकी कुमारी सुता के चारो बगल से पहरा देवे लगलन ।
-1	﻿अहेरी	﻿अहेरी	PROPN	PROPN	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
+1	﻿अहेरी	﻿अहेरी	PROPN	PROPN	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 2	कुमार	कुमार	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	flat	_	_
 3	आउ	आउ	CCONJ	CCONJ	_	4	cc	_	_
 4	बलकी	बलकी	PROPN	PROPN	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 5	कुमारी	कुमारी	PROPN	PROPN	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	flat	_	_
-6	सुता	सुता	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	12	dobj	_	_
-7	के	चीरना	AUX	AUX	_	6	case	_	_
+6	सुता	सुता	VERB	VERB	Case=Gen|Number=Sing|Person=3	11	advcl	_	_
+7	के	के	AUX	AUX	_	6	case	_	_
 8	चारो	चारो	NUM	NUM	_	9	null	_	_
 9	बगल	बगल	NOUN	NOUN	Case=Acc|Person=3	6	iobj	_	_
 10	से	से	ADP	ADP	_	9	case	_	_
-11	पहरा	पहरा	NOUN	NOUN	Aspect=Imp	12	compound	_	_
-12	देवे	देना	VERB	VERB	Aspect=Imp	0	root	_	_
-13	लगलन	लगना	AUX	AUX	Aspect=Prog|Tense=Pres	12	aux	_	_
+11	पहरा	पहरा	NOUN	NOUN	Aspect=Imp	_	_	_	_
+12	देवे	देना	VERB	VERB	Aspect=Imp	11	conjunct	_	_
+13	लगलन	लगना	VERB	VERB	Aspect=Prog|Tense=Pres	12	compound	_	_
 14	।	।	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = s1623
@@ -531,11 +534,11 @@
 2	कहलक	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 3	कि	कि	SCONJ	SCONJ	_	4	mark	_	_
 4	देखलई	देखना	VERB	VERB	Aspect=Perf|Tense=Past	2	acl	_	_
-5	न	न	PART	PART	_	4	advmod	_	_
+5	न	न	PART	PART	_	4	neg	_	_
 6	रानी	रानी	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	12	iobj	_	_
 7	,	,	PUNCT	PUNCT	_	4	punct	_	_
 8	लालपरी	लालपरी	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	compound	_	_
-9	के	चीरना	ADP	ADP	_	8	case	_	_
+9	के	के	ADP	ADP	_	8	case	_	_
 10	लाल	लाल	ADJ	ADJ	_	11	amod	_	_
 11	गमछा	गमछा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	12	dobj	_	_
 12	मिललई	मिलना	VERB	VERB	Aspect=Perf|Tense=Past	2	acl	_	_
@@ -544,35 +547,35 @@
 # sent_id = s1624
 # text = ऐही घड़ी इन्द्रासन के दुगो परी अकास में उड़ल जाइत हलन ।
 1	ऐही	ऐही	DET	DET	_	2	det	_	_
-2	घड़ी	घड़ी	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	9	advmod	_	_
+2	घड़ी	घड़ी	null	null	Case=Nom|Number=Sing|Person=3	9	iobj	_	_
 3	इन्द्रासन	इन्द्रासन	PROPN	PROPN	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	दुगो	दुगो	NUM	NUM	_	6	nummod	_	_
 6	परी	परी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
-7	अकास	अकास	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	obl	_	_
+7	अकास	अकास	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
 8	में	में	ADP	ADP	_	7	case	_	_
 9	उड़ल	उड़ना	VERB	VERB	Aspect=Prog	0	root	_	_
-10	जाइत	जाना	AUX	AUX	Aspect=Prog	9	aux	_	_
+10	जाइत	जाना	VERB	VERB	Aspect=Prog	9	compound	_	_
 11	हलन	है	AUX	AUX	Aspect=Prog|Tense=Past	10	aux	_	_
 12	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1625
 # text = लड़का के सुरत देखके ओहनी कहलन कि अइसने लड़की के साथे एकरा बिआह होवे के चाही ।
 1	लड़का	लड़का	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	सुरत	सुरत	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	dobj	_	_
 4	देखके	देखना	VERB	VERB	Aspect=Perf	6	advcl	_	_
 5	ओहनी	ओहनी	PRON	PRON	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
 6	कहलन	कहना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
 7	कि	कि	SCONJ	SCONJ	_	14	mark	_	_
-8	अइसने	अइसने	ADJ	ADJ	_	9	null	_	_
+8	अइसने	अइसने	ADJ	ADJ	_	9	amod	_	_
 9	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	iobj	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	साथे	साथे	ADP	ADP	_	9	case	_	_
 12	एकरा	एकरा	DET	DET	_	14	dobj	_	_
-13	बिआह	बिआह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	null	_	_
+13	बिआह	बिआह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	conjunct	_	_
 14	होवे	होना	VERB	VERB	Aspect=Imp	6	acl	_	_
-15	के	चीरना	AUX	AUX	_	14	dep	_	_
+15	के	के	ADP	ADP	_	14	case	_	_
 16	चाही	चाहना	AUX	AUX	Aspect=Imp|Tense=Pres	14	aux	_	_
 17	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -589,10 +592,10 @@
 9	पार	पार	PART	PART	_	8	case	_	_
 10	एगो	एगो	NUM	NUM	_	11	nummod	_	_
 11	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
-12	के	चीरना	ADP	ADP	_	11	case	_	_
+12	के	के	ADP	ADP	_	11	case	_	_
 13	अइसने	अइसने	ADV	ADV	_	14	advmod	_	_
 14	सुन्नर	सुन्नर	ADJ	ADJ	_	15	amod	_	_
-15	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	null	_	_
+15	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	dobj	_	_
 16	देखलन	देखना	VERB	VERB	Aspect=Perf	0	root	_	_
 17	हल	है	AUX	AUX	Tense=Past	16	aux	_	_
 18	।	।	PUNCT	PUNCT	_	16	punct	_	_
@@ -601,9 +604,9 @@
 # text = ऊ चनरमा के जोति नियन बरऽ हल ।
 1	ऊ	ऊ	PRON	PRON	Case=Acc|Number=Sing|Person=3	6	nsubj	_	_
 2	चनरमा	चनरमा	PROPN	PROPN	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	जोति	जोति	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	advmod	_	_
-5	नियन	नियन	PART	PART	_	4	case	_	_
+5	नियन	नियन	PART	PART	_	4	dep	_	_
 6	बरऽ	बरना	VERB	VERB	Aspect=Hab	0	root	_	_
 7	हल	है	AUX	AUX	Aspect=Hab|Tense=Past	6	aux	_	_
 8	।	।	PUNCT	PUNCT	_	6	punct	_	_
@@ -614,11 +617,11 @@
 2	ओहनी	ओहनी	DET	DET	Case=Nom|Number=Plur|Person=3	3	det	_	_
 3	परियन	परि	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur|Person=3	10	nsubj	_	_
 4	लइका	लइका	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	dobj	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	पलंग	पलंग	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	iobj	_	_
-7	सहिते	सहिते	ADP	ADP	_	6	case	_	_
+7	सहिते	सहिते	ADP	ADP	_	6	dep	_	_
 8	उड़ा	उड़ना	VERB	VERB	Aspect=Perf	10	advcl	_	_
-9	के	चीरना	AUX	AUX	_	8	case	_	_
+9	के	के	AUX	AUX	_	8	case	_	_
 10	ले	लेना	VERB	VERB	_	0	root	_	_
 11	गेलन	जाना	AUX	AUX	Aspect=Perf|Tense=Past	10	null	_	_
 12	आउ	आउ	CCONJ	CCONJ	_	28	cc	_	_
@@ -627,7 +630,7 @@
 15	जहाँ	जहाँ	PRON	PRON	_	21	obl	_	_
 16	अपन	अपन	PRON	PRON	Case=Gen|Person=3	17	nmod	_	_
 17	महल	महल	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	19	nmod	_	_
-18	के	चीरना	ADP	ADP	_	17	case	_	_
+18	के	के	ADP	ADP	_	17	case	_	_
 19	कोठा	कोठा	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	21	iobj	_	_
 20	पर	पर	ADP	ADP	_	19	case	_	_
 21	सुतल	सुतना	VERB	VERB	Aspect=Prog	28	acl	_	_
@@ -648,15 +651,15 @@
 3	में	में	ADP	ADP	_	2	case	_	_
 4	जब	जब	PRON	PRON	_	8	obl	_	_
 5	लड़की	लड़की	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	7	nmod	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
-7	नीन	नीन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	compound	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
+7	नीन	नीन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	conjunct	_	_
 8	टूटल	टुटना	VERB	VERB	Aspect=Perf|Tense=Past	9	acl:relcl	_	_
 9	तब	तब	PRON	PRON	_	10	obl	_	_
 10	देखलक	देखना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 11	कि	कि	SCONJ	SCONJ	_	14	mark	_	_
 12	एगो	एगो	NUM	NUM	_	13	nummod	_	_
 13	लड़का	लड़का	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	dobj	_	_
-14	सुतल	सुतना	VERB	VERB	Aspect=Prog|Tense=Past	10	obj	_	_
+14	सुतल	सुतना	VERB	VERB	Aspect=Prog|Tense=Past	10	iobj	_	_
 15	हे	है	AUX	AUX	Aspect=Imp|Tense=Pres	14	aux	_	_
 16	।	।	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -666,7 +669,7 @@
 2	सुरत	सुरत	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	dobj	_	_
 3	देखके	देखना	VERB	VERB	Aspect=Perf	6	advcl	_	_
 4	ऊ	ऊ	PRON	PRON	Case=Acc|Number=Sing|Person=3	6	nsubj	_	_
-5	मोहित	मोहना	NOUN	NOUN	_	6	compound	_	_
+5	मोहित	मोहना	ADJ	ADJ	_	6	conjunct	_	_
 6	हो	होना	VERB	VERB	Aspect=Perf	0	root	_	_
 7	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	6	aux	_	_
 8	।	।	PUNCT	PUNCT	_	6	punct	_	_
@@ -685,24 +688,24 @@
 10	कैलन	करना	VERB	VERB	Aspect=Perf	0	root	_	_
 11	तो	तो	PRON	PRON	_	15	mark	_	_
 12	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
-13	के	चीरना	ADP	ADP	_	12	case	_	_
-14	नीन	नीन	NOUN	NOUN	Case=Acc|Person=3	15	compound	_	_
+13	के	के	ADP	ADP	_	12	case	_	_
+14	नीन	नीन	NOUN	NOUN	Case=Acc|Person=3	15	conjunct	_	_
 15	आ	आना	VERB	VERB	Aspect=Imp	10	acl:relcl	_	_
-16	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	15	aux	_	_
+16	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	15	compound	_	_
 17	बाकि	बाकि	CCONJ	CCONJ	_	21	cc	_	_
 18	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_
-19	के	चीरना	ADP	ADP	_	18	null	_	_
+19	के	के	ADP	ADP	_	18	case	_	_
 20	नीन	नीन	NOUN	NOUN	Case=Acc|Person=3	21	compound	_	_
 21	टूट	टूटना	VERB	VERB	Aspect=Imp	15	conj	_	_
-22	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	21	aux	_	_
-23	तो	तो	PRON	PRON	_	24	null	_	_
+22	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	21	compound	_	_
+23	तो	तो	PRON	PRON	_	24	obl	_	_
 24	देखलक	देखना	VERB	VERB	Aspect=Imp|Tense=Past	21	acl:relcl	_	_
 25	कि	कि	SCONJ	SCONJ	_	33	mark	_	_
 26	राजमहल	राजमहल	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	33	obl	_	_
 27	मै	मै	NOUN	NOUN	_	26	case	_	_
 28	एगो	एगो	NUM	NUM	_	29	nummod	_	_
 29	लड़की	लड़की	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	31	nmod	_	_
-30	के	चीरना	ADP	ADP	_	29	case	_	_
+30	के	के	ADP	ADP	_	29	case	_	_
 31	पलंग	पलंग	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	33	iobj	_	_
 32	भिरू	भिरू	ADP	ADP	_	31	case	_	_
 33	सूतल	सुतना	VERB	VERB	Aspect=Prog|Tense=Pres	24	obj	_	_
@@ -712,10 +715,10 @@
 # sent_id = s1632
 # text = लड़की के सूरत देख के लड़का मोहा गेल ।
 1	लड़की	लड़की	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	सूरत	सूरत	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	dobj	_	_
 4	देख	देखना	VERB	VERB	Aspect=Perf	7	advcl	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	dobj	_	_
 7	मोहा	मोहना	VERB	VERB	Aspect=Perf	0	root	_	_
 8	गेल	जाना	AUX	AUX	Aspect=Imp|Tense=Past	7	aux	_	_
@@ -728,13 +731,13 @@
 3	परी	परी	NOUN	NOUN	_	4	amod	_	_
 4	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
 5	फिनो	फिनो	ADV	ADV	_	9	advmod	_	_
-6	पाँख	पाँख	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	9	obl	_	_
+6	पाँख	पाँख	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	9	iobj	_	_
 7	से	से	ADP	ADP	_	6	case	_	_
-8	हवा	हवा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	null	_	_
+8	हवा	हवा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	conjunct	_	_
 9	कैलन	करना	VERB	VERB	Aspect=Perf|Tense=Past	15	advcl	_	_
 10	तो	तो	PRON	PRON	_	15	mark	_	_
 11	लड़की	लड़की	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
-12	के	चीरना	ADP	ADP	_	11	case	_	_
+12	के	के	ADP	ADP	_	11	case	_	_
 13	भी	भी	PART	PART	_	11	dep	_	_
 14	नीन	नीन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	15	dobj	_	_
 15	दुट	दुटना	VERB	VERB	Aspect=Perf	0	root	_	_
@@ -747,9 +750,9 @@
 2	गमछा	गमछा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	dobj	_	_
 3	तोर	तोर	PRON	PRON	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
 4	पति	पति	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	iobj	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	मिल	मिलना	VERB	VERB	Aspect=Perf	10	advcl	_	_
-7	जयतो	जाना	AUX	AUX	Aspect=Hab|Tense=Fut	6	aux	_	_
+7	जयतो	जाना	VERB	VERB	Aspect=Hab|Tense=Fut	6	compound	_	_
 8	तो	तो	PRON	PRON	_	10	mark	_	_
 9	हम	हम	PRON	PRON	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10	जानबो	जानबो	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
@@ -772,7 +775,7 @@
 5	सपना	सपना	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	dobj	_	_
 6	तो	तो	PRON	PRON	_	5	dep	_	_
 7	न	न	PART	PART	_	8	advmod	_	_
-8	देखइत	देखना	VERB	VERB	Aspect=Prog|Tense=Pres	2	obj	_	_
+8	देखइत	देखना	VERB	VERB	Aspect=Prog|Tense=Pres	2	iobj	_	_
 9	ही	ही	AUX	AUX	Tense=Pres	8	aux	_	_
 10	।	।	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -785,9 +788,9 @@
 5	पुछलक	पुछना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 6	कि	कि	SCONJ	SCONJ	_	10	mark	_	_
 7	अपने	अपने	PRON	PRON	Case=Gen|Number=Sing|Person=3	10	nmod	_	_
-8	के	चीरना	ADP	ADP	_	7	case	_	_
+8	के	के	ADP	ADP	_	7	case	_	_
 9	कहाँ	कहाँ	PRON	PRON	_	10	advmod	_	_
-10	मकान	मकान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	obj	_	_
+10	मकान	मकान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	iobj	_	_
 11	हे	है	AUX	AUX	Tense=Pres	10	aux	_	_
 12	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -800,7 +803,7 @@
 5	तो	तो	PRON	PRON	_	9	mark	_	_
 6	लड़कियो	लड़कि	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
 7	अपन	अपन	PRON	PRON	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
-8	हाल	हाल	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	null	_	_
+8	हाल	हाल	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	dobj	_	_
 9	कहलक	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 10	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -812,7 +815,7 @@
 4	में	में	ADP	ADP	_	1	case	_	_
 5	दुनो	दुन्नो	NUM	NUM	Case=Acc|Number=Plur|Person=3	8	dobj	_	_
 6	मे	मे	ADP	ADP	_	5	case	_	_
-7	परेम	परेम	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	compound	_	_
+7	परेम	परेम	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	conjunct	_	_
 8	हो	होना	VERB	VERB	Aspect=Perf	0	root	_	_
 9	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	8	aux	_	_
 10	आउ	आउ	CCONJ	CCONJ	_	17	cc	_	_
@@ -820,7 +823,7 @@
 12	एक	एक	NUM	NUM	Case=Gen|Number=Sing|Person=3	16	nmod	_	_
 13	-	-	PUNCT	PUNCT	_	14	punct	_	_
 14	दुसर	दुसर	NUM	NUM	Case=Gen|Number=Sing|Person=3	12	compound	_	_
-15	के	चीरना	ADP	ADP	_	14	case	_	_
+15	के	के	ADP	ADP	_	14	case	_	_
 16	अँगूठी	अँगूठी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	17	dobj	_	_
 17	बदल	बदलना	VERB	VERB	Aspect=Imp	8	conj	_	_
 18	लेलन	लेना	AUX	AUX	Aspect=Perf|Tense=Past	17	aux	_	_
@@ -828,29 +831,29 @@
 
 # sent_id = s1639
 # text = एकरे बीच परी लोग खुब जोर - जोर से पाँख फड़फड़ा के हवा कैलन तो ओहनी दुनो के फिनो नीन आ गेल ।
-1	एकरे	एकरे	DET	DET	Case=Acc|Number=Sing|Person=3	2	null	_	_
-2	बीच	बीच	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	null	_	_
-3	परी	परी	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	null	_	_
-4	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	_	_	_	_
-5	खुब	खुब	PART	PART	_	6	null	_	_
-6	जोर	जोर	ADV	ADV	_	11	null	_	_
-7	-	-	PUNCT	PUNCT	_	6	null	_	_
-8	जोर	जोर	ADV	ADV	_	6	null	_	_
-9	से	से	ADP	ADP	_	6	null	_	_
-10	पाँख	पाँख	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	null	_	_
-11	फड़फड़ा	फड़फड़ाना	VERB	VERB	Aspect=Perf	14	null	_	_
-12	के	चीरना	AUX	AUX	_	11	null	_	_
-13	हवा	हवा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	null	_	_
-14	कैलन	करना	VERB	VERB	Aspect=Perf|Tense=Past	_	_	_	_
-15	तो	तो	PRON	PRON	_	20	null	_	_
-16	ओहनी	ओहनी	DET	DET	Case=Acc|Number=Plur|Person=3	17	null	_	_
-17	दुनो	दुन्नो	NUM	NUM	Case=Acc|Number=Plur|Person=3	20	null	_	_
-18	के	चीरना	ADP	ADP	_	17	null	_	_
-19	फिनो	फिनो	CCONJ	CCONJ	_	21	null	_	_
-20	नीन	नीन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	21	null	_	_
-21	आ	आना	VERB	VERB	Aspect=Perf	14	null	_	_
-22	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	21	null	_	_
-23	।	।	PUNCT	PUNCT	_	14	null	_	_
+1	एकरे	एकरे	DET	DET	Case=Acc|Number=Sing|Person=3	2	det	_	_
+2	बीच	बीच	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	iobj	_	_
+3	परी	परी	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+4	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	3	flat	_	_
+5	खुब	खुब	PART	PART	_	6	advmod	_	_
+6	जोर	जोर	ADV	ADV	_	11	advmod	_	_
+7	-	-	PUNCT	PUNCT	_	6	punct	_	_
+8	जोर	जोर	ADV	ADV	_	6	compound	_	_
+9	से	से	ADP	ADP	_	6	case	_	_
+10	पाँख	पाँख	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	dobj	_	_
+11	फड़फड़ा	फड़फड़ाना	VERB	VERB	Aspect=Perf	14	advcl	_	_
+12	के	के	AUX	AUX	_	11	case	_	_
+13	हवा	हवा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	dobj	_	_
+14	कैलन	करना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
+15	तो	तो	PRON	PRON	_	20	mark	_	_
+16	ओहनी	ओहनी	DET	DET	Case=Acc|Number=Plur|Person=3	20	nsubj	_	_
+17	दुनो	दुन्नो	NUM	NUM	Case=Acc|Number=Plur|Person=3	16	nummod	_	_
+18	के	के	ADP	ADP	_	16	case	_	_
+19	फिनो	फिनो	ADV	ADV	_	20	advmod	_	_
+20	नीन	नीन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	iobj	_	_
+21	आ	आना	VERB	VERB	Aspect=Perf	20	conjunct	_	_
+22	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	21	compound	_	_
+23	।	।	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = s1640
 # text = एकरा बाद दुनो परी ओहनी के पलंग अदला - बदला करके राजा के लड़का के ओही जंगल में आन के ओहिजे पलंग रख देलन जहाँ सिपाही लोग पहरा देइत हलन ।
@@ -859,41 +862,41 @@
 3	दुनो	दुन्नो	NUM	NUM	Case=Nom|Number=Plur|Person=3	4	nummod	_	_
 4	परी	परी	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	23	nsubj	_	_
 5	ओहनी	ओहनी	PRON	PRON	Case=Gen|Number=Plur|Person=3	7	nmod	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	पलंग	पलंग	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	dobj	_	_
-8	अदला	अदला	NOUN	NOUN	Case=Acc|Person=3	11	compound	_	_
+8	अदला	अदला	NOUN	NOUN	Case=Acc|Person=3	11	conjunct	_	_
 9	-	-	PUNCT	PUNCT	_	10	punct	_	_
 10	बदला	बदला	NOUN	NOUN	Case=Acc|Person=3	8	compound	_	_
 11	करके	करना	VERB	VERB	Aspect=Perf	23	advcl	_	_
 12	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
-13	के	चीरना	ADP	ADP	_	12	case	_	_
+13	के	के	ADP	ADP	_	12	case	_	_
 14	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	iobj	_	_
-15	के	चीरना	ADP	ADP	_	14	case	_	_
+15	के	के	ADP	ADP	_	14	case	_	_
 16	ओही	ओही	DET	DET	Case=Acc|Number=Sing|Person=3	17	det	_	_
 17	जंगल	जगना	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	23	iobj	_	_
 18	में	में	ADP	ADP	_	17	case	_	_
 19	आन	आना	VERB	VERB	Aspect=Perf	23	advcl	_	_
-20	के	चीरना	AUX	AUX	_	19	case	_	_
+20	के	के	AUX	AUX	_	19	case	_	_
 21	ओहिजे	ऊहा	PRON	PRON	Case=Loc|Number=Sing|Person=3	23	iobj	_	_
 22	पलंग	पलंग	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	23	dobj	_	_
 23	रख	रखना	VERB	VERB	Aspect=Perf	0	root	_	_
-24	देलन	देना	AUX	AUX	Aspect=Perf|Tense=Past	23	aux	_	_
+24	देलन	देना	VERB	VERB	Aspect=Perf|Tense=Past	23	compound	_	_
 25	जहाँ	जहाँ	PRON	PRON	_	29	iobj	_	_
 26	सिपाही	सिपाही	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	27	amod	_	_
 27	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	29	nmod	_	_
-28	पहरा	पहरा	NOUN	NOUN	Case=Acc|Person=3	29	compound	_	_
+28	पहरा	पहरा	NOUN	NOUN	Case=Acc|Person=3	29	conjunct	_	_
 29	देइत	देना	VERB	VERB	Aspect=Prog	23	advcl	_	_
 30	हलन	है	AUX	AUX	Aspect=Prog|Tense=Past	29	aux	_	_
 31	।	।	PUNCT	PUNCT	_	29	punct	_	_
 
 # sent_id = s1641
 # text = सबरे लड़का उठल तो लड़की के न देखलक ।
-1	सबरे	सबरे	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	advmod	_	_
+1	सबरे	सबरे	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	iobj	_	_
 2	लड़का	लड़का	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 3	उठल	उठना	VERB	VERB	Aspect=Perf|Tense=Past	8	advcl	_	_
 4	तो	तो	PRON	PRON	_	8	mark	_	_
 5	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	dobj	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	न	न	PART	PART	_	8	advmod	_	_
 8	देखलक	देखना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 9	।	।	PUNCT	PUNCT	_	8	punct	_	_
@@ -912,13 +915,13 @@
 10	``	``	PUNCT	PUNCT	_	8	punct	_	_
 11	कहके	कहना	VERB	VERB	Aspect=Imp|Tense=Past	12	advcl	_	_
 12	चिल्लाय	चिल्लाना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
-13	लगल	लगना	AUX	AUX	Aspect=Imp|Tense=Past	12	aux	_	_
+13	लगल	लगना	VERB	VERB	Aspect=Imp|Tense=Past	12	compound	_	_
 14	।	।	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = s1643
 # text = सिपाही लोग देखइत हथ कि पलंग दुसर हे आउ एकर अँगुठियो दुसर हे ।
-1	सिपाही	सिपाही	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+1	सिपाही	सिपाही	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+2	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	1	nmod	_	_
 3	देखइत	देखना	VERB	VERB	Aspect=Prog	0	root	_	_
 4	हथ	है	AUX	AUX	Aspect=Prog|Tense=Pres	3	aux	_	_
 5	कि	कि	SCONJ	SCONJ	_	7	mark	_	_
@@ -938,8 +941,8 @@
 2	कहलक	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 3	कि	कि	SCONJ	SCONJ	_	7	mark	_	_
 4	हम	हम	PRON	PRON	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
-5	जब	जब	PRON	PRON	_	7	advmod	_	_
-6	सादी	सादी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	7	compound	_	_
+5	जब	जब	PRON	PRON	_	7	obl	_	_
+6	सादी	सादी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	7	conjunct	_	_
 7	करब	करना	VERB	VERB	Aspect=Imp|Tense=Fut	16	advcl	_	_
 8	तो	तो	PRON	PRON	_	16	mark	_	_
 9	ओही	ओही	DET	DET	_	10	det	_	_
@@ -954,7 +957,7 @@
 
 # sent_id = s1645
 # text = देख ला लाल गमछाह हई ।
-1	देख	देखना	VERB	VERB	Aspect=Imp|Tense=Pres	_	_	_	_
+1	देख	देखना	VERB	VERB	Aspect=Imp|Tense=Pres	0	root	_	_
 2	ला	लाना	AUX	AUX	_	1	case	_	_
 3	लाल	लाल	ADJ	ADJ	_	4	amod	_	_
 4	गमछाह	गमछाह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	1	dobj	_	_
@@ -966,12 +969,12 @@
 1	एने	एने	DET	DET	_	3	det	_	_
 2	जब	जब	PRON	PRON	_	6	advmod	_	_
 3	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	नीन	नीन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	dobj	_	_
 6	टूटल	टुटना	VERB	VERB	Aspect=Perf|Tense=Past	23	advcl	_	_
 7	आउ	आउ	CCONJ	CCONJ	_	11	cc	_	_
 8	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	dobj	_	_
-9	के	चीरना	ADP	ADP	_	8	case	_	_
+9	के	के	ADP	ADP	_	8	case	_	_
 10	न	न	PART	PART	_	11	advmod	_	_
 11	देखलक	देखना	VERB	VERB	Aspect=Perf|Tense=Past	6	conj	_	_
 12	तऽ	तऽ	SCONJ	SCONJ	_	23	mark	_	_
@@ -986,19 +989,19 @@
 21	``	``	PUNCT	PUNCT	_	19	punct	_	_
 22	कहके	कहना	VERB	VERB	Aspect=Perf|Tense=Past	23	advcl	_	_
 23	रोवे	रोना	VERB	VERB	Aspect=Imp|Tense=Past	0	root	_	_
-24	लगल	लगना	AUX	AUX	Aspect=Imp|Tense=Past	23	aux	_	_
+24	लगल	लगना	VERB	VERB	Aspect=Imp|Tense=Past	23	compound	_	_
 25	।	।	PUNCT	PUNCT	_	23	punct	_	_
 
 # sent_id = s1647
 # text = सबे लोग देखके कहलन कि लड़की पगला गेल हे ।
-1	सबे	सबे	DET	DET	Case=Nom|Number=Plur|Person=3	2	det	_	_
-2	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+1	सबे	सबे	DET	DET	Case=Nom|Number=Plur|Person=3	4	det	_	_
+2	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	1	nmod	_	_
 3	देखके	देखना	VERB	VERB	Aspect=Imp	4	advcl	_	_
 4	कहलन	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 5	कि	कि	SCONJ	SCONJ	_	7	mark	_	_
 6	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	dobj	_	_
-7	पगला	पगला	NOUN	NOUN	Case=Acc|Person=3	4	iobj	_	_
-8	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	7	aux	_	_
+7	पगला	पगला	VERB	VERB	Case=Acc|Person=3	4	iobj	_	_
+8	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	7	conjunct	_	_
 9	हे	है	AUX	AUX	Tense=Pres	8	aux	_	_
 10	।	।	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -1044,32 +1047,32 @@
 
 # sent_id = s1650
 # text = दुनो दने के राजा ही से नउवा - ब्राह्मन लड़का - लड़की खोजे निकलन कि अहेरी कुमार कहवाँ के लड़का हे आउ बलकी कुमारी कहवाँ के लड़की हे ।
-1	दुनो	दुन्नो	NUM	NUM	Case=Nom|Number=Plur|Person=3	2	amod	_	_
-2	दने	दने	NOUN	NOUN	Case=Acc|Person=3	9	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+1	दुनो	दुन्नो	NUM	NUM	Case=Nom|Number=Plur|Person=3	2	nummod	_	_
+2	दने	दने	NOUN	NOUN	Case=Acc|Person=3	4	nmod	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	राजा	राजा	NOUN	NOUN	Case=Loc|Gender=Masc|Number=Sing|Person=3	13	iobj	_	_
 5	ही	ही	PART	PART	_	4	dep	_	_
 6	से	से	ADP	ADP	_	4	case	_	_
 7	नउवा	नउवा	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	9	amod	_	_
 8	-	-	PUNCT	PUNCT	_	9	punct	_	_
-9	ब्राह्मन	ब्राह्मन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	_	_	_	_
+9	ब्राह्मन	ब्राह्मन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	13	nsubj	_	_
 10	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	dobj	_	_
-11	-	-	PUNCT	PUNCT	_	12	punct	_	_
-12	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	dobj	_	_
+11	-	-	PUNCT	PUNCT	_	10	punct	_	_
+12	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	compound	_	_
 13	खोजे	खोजना	VERB	VERB	_	0	root	_	_
-14	निकलन	निकलना	AUX	AUX	Aspect=Perf|Tense=Past	13	aux	_	_
+14	निकलन	निकलना	VERB	VERB	Aspect=Perf|Tense=Past	13	compound	_	_
 15	कि	कि	SCONJ	SCONJ	_	20	mark	_	_
 16	अहेरी	अहेरी	PROPN	PROPN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	dobj	_	_
 17	कुमार	कुमार	PROPN	PROPN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	flat	_	_
 18	कहवाँ	कहा	PRON	PRON	Case=Loc|Person=3	20	nmod	_	_
-19	के	चीरना	ADP	ADP	_	18	case	_	_
+19	के	के	ADP	ADP	_	18	case	_	_
 20	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	13	iobj	_	_
 21	हे	है	VERB	VERB	_	20	cop	_	_
 22	आउ	आउ	CCONJ	CCONJ	_	27	cc	_	_
 23	बलकी	बलकी	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	27	dobj	_	_
 24	कुमारी	कुमारी	PROPN	PROPN	Case=Acc|Number=Sing|Person=3	23	flat	_	_
 25	कहवाँ	कहा	PRON	PRON	Case=Loc|Person=3	27	nmod	_	_
-26	के	चीरना	ADP	ADP	_	25	case	_	_
+26	के	के	ADP	ADP	_	25	case	_	_
 27	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	20	conj	_	_
 28	हे	है	VERB	VERB	_	27	cop	_	_
 29	।	।	PUNCT	PUNCT	_	13	punct	_	_
@@ -1077,15 +1080,15 @@
 # sent_id = s1651
 # text = अगर पता चल जाय तो दुनो के बिआह हो जायत ।
 1	अगर	अगर	SCONJ	SCONJ	_	3	mark	_	_
-2	पता	पता	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	null	_	_
+2	पता	पता	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	conjunct	_	_
 3	चल	चलना	VERB	VERB	_	9	advcl	_	_
-4	जाय	जाना	AUX	AUX	Aspect=Perf	3	aux	_	_
+4	जाय	जाना	VERB	VERB	Aspect=Perf	3	compound	_	_
 5	तो	तो	PRON	PRON	_	9	mark	_	_
 6	दुनो	दुन्नो	NUM	NUM	Case=Acc|Number=Plur|Person=3	8	nmod	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	बिआह	बिआह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	compound	_	_
 9	हो	होना	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
-10	जायत	जाना	AUX	AUX	Aspect=Imp|Tense=Fut	9	aux	_	_
+10	जायत	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	9	compound	_	_
 11	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1652
@@ -1094,19 +1097,19 @@
 2	-	-	PUNCT	PUNCT	_	3	punct	_	_
 3	खोजइत	खोजना	VERB	VERB	Aspect=Hab|Tense=Pres	16	advmod	_	_
 4	थकल	थकना	ADJ	ADJ	_	12	amod	_	_
-5	-	-	PUNCT	PUNCT	_	6	punct	_	_
-6	पिआसल	पिआसल	ADJ	ADJ	_	12	amod	_	_
-7	दुनो	दुन्नो	NUM	NUM	Number=Plur|Person=3	8	amod	_	_
+5	-	-	PUNCT	PUNCT	_	4	punct	_	_
+6	पिआसल	पिआसल	ADJ	ADJ	_	4	compound	_	_
+7	दुनो	दुन्नो	NUM	NUM	Number=Plur|Person=3	8	nummod	_	_
 8	दने	दने	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	10	nmod	_	_
-9	के	चीरना	ADP	ADP	_	8	case	_	_
+9	के	के	ADP	ADP	_	8	case	_	_
 10	नउवा	नउवा	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	12	amod	_	_
-11	-	-	PUNCT	PUNCT	_	12	punct	_	_
+11	-	-	PUNCT	PUNCT	_	10	punct	_	_
 12	ब्राह्मन	ब्राह्मन	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	16	nsubj	_	_
 13	एके	एके	NUM	NUM	Case=Loc|Number=Sing	14	nummod	_	_
 14	जगह	जगह	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	16	iobj	_	_
 15	पर	पर	ADP	ADP	_	14	case	_	_
 16	जुट	जुटना	VERB	VERB	Aspect=Perf	0	root	_	_
-17	गेलन	जाना	AUX	AUX	Aspect=Perf|Tense=Past	16	aux	_	_
+17	गेलन	जाना	VERB	VERB	Aspect=Perf|Tense=Past	16	compound	_	_
 18	।	।	PUNCT	PUNCT	_	16	punct	_	_
 
 # sent_id = s1653
@@ -1116,10 +1119,10 @@
 3	से	से	ADP	ADP	_	2	case	_	_
 4	पुछा-पाछी	पुछा-पाछी	NOUN	NOUN	_	5	compound	_	_
 5	होवे	होना	VERB	VERB	_	11	advcl	_	_
-6	लगल	लगना	AUX	AUX	Aspect=Perf|Tense=Past	5	aux	_	_
-7	तो	तो	PRON	PRON	_	10	null	_	_
-8	सबहे	सबहे	DET	DET	_	9	null	_	_
-9	हाल	हाल	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	10	null	_	_
+6	लगल	लगना	VERB	VERB	Aspect=Perf|Tense=Past	5	compound	_	_
+7	तो	तो	PRON	PRON	_	10	mark	_	_
+8	सबहे	सबहे	DET	DET	_	9	det	_	_
+9	हाल	हाल	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	10	dobj	_	_
 10	मालूम	मालूम	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	compound	_	_
 11	हो	होना	VERB	VERB	Aspect=Perf	0	root	_	_
 12	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	11	aux	_	_
@@ -1128,17 +1131,17 @@
 # sent_id = s1654
 # text = सब के बड़ खुसी भेल आउ ओही जगह पर गनना-मनना कैल गेल ।
 1	सब	सब	DET	DET	Case=Acc|Number=Plur|Person=3	5	det	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
-3	बड़	बड़	PART	PART	_	4	amod	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
+3	बड़	बड़	ADJ	ADJ	_	4	amod	_	_
 4	खुसी	खुसी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	compound	_	_
 5	भेल	होना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 6	आउ	आउ	CCONJ	CCONJ	_	11	cc	_	_
 7	ओही	ओही	DET	DET	_	8	det	_	_
 8	जगह	जगह	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	11	iobj	_	_
 9	पर	पर	ADP	ADP	_	8	case	_	_
-10	गनना-मनना	गनना-मनना	NOUN	NOUN	_	11	dobj	_	_
+10	गनना-मनना	गनना-मनना	NOUN	NOUN	_	11	conjunct	_	_
 11	कैल	करना	VERB	VERB	_	5	conj	_	_
-12	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Pres	11	aux	_	_
+12	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Pres	11	compound	_	_
 13	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1655
@@ -1147,12 +1150,12 @@
 2	समय	समय	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 3	पर	पर	ADP	ADP	_	2	case	_	_
 4	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	dobj	_	_
-5	-	-	PUNCT	PUNCT	_	6	punct	_	_
-6	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	dobj	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
-8	बिआह	बिआह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	compound	_	_
+5	-	-	PUNCT	PUNCT	_	4	punct	_	_
+6	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	compound	_	_
+7	के	के	ADP	ADP	_	4	case	_	_
+8	बिआह	बिआह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	conjunct	_	_
 9	भे	होना	VERB	VERB	Aspect=Perf	0	root	_	_
-10	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Pres	9	aux	_	_
+10	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Pres	9	compound	_	_
 11	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1656
@@ -1160,7 +1163,7 @@
 1	रानी	रानी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	चुप्पे	चुप्पे	ADV	ADV	_	3	advmod	_	_
 3	उठ	उठना	VERB	VERB	_	0	root	_	_
-4	गेलई	जाना	AUX	AUX	Aspect=Perf|Tense=Past	3	aux	_	_
+4	गेलई	जाना	VERB	VERB	Aspect=Perf|Tense=Past	3	compound	_	_
 5	आउ	आउ	CCONJ	CCONJ	_	16	cc	_	_
 6	रसोईघर	रसोईघर	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	8	iobj	_	_
 7	मे	मे	ADP	ADP	_	6	case	_	_
@@ -1170,28 +1173,28 @@
 11	में	में	ADP	ADP	_	10	case	_	_
 12	छवो	छवो	NUM	NUM	Case=Acc|Number=Plur|Person=3	13	nummod	_	_
 13	रस	रस	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	15	nmod	_	_
-14	के	चीरना	ADP	ADP	_	13	case	_	_
-15	भोजन	भोजन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	16	null	_	_
-16	लेलकई	लेना	VERB	VERB	Aspect=Perf	4	conj	_	_
+14	के	के	ADP	ADP	_	13	case	_	_
+15	भोजन	भोजन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	16	dobj	_	_
+16	लेलकई	लेना	VERB	VERB	Aspect=Perf	3	conj	_	_
 17	आउ	आउ	CCONJ	CCONJ	_	19	cc	_	_
 18	बाहर	बाहर	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	19	iobj	_	_
 19	चल	चलना	VERB	VERB	Aspect=Imp|Person=3	16	conj	_	_
-20	गेलई	जाना	AUX	AUX	Aspect=Perf|Tense=Past	19	aux	_	_
-21	।	।	PUNCT	PUNCT	_	4	punct	_	_
+20	गेलई	जाना	VERB	VERB	Aspect=Perf|Tense=Past	19	compound	_	_
+21	।	।	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = s1657
 # text = नाच खतम होते झट वजीर खटिया तर आन के पड़ रहल ।
 1	नाच	नाचना	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	dobj	_	_
-2	खतम	खतम	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	compound	_	_
+2	खतम	खतम	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	conjunct	_	_
 3	होते	होना	VERB	VERB	Aspect=Imp|Tense=Past	10	advcl	_	_
-4	झट	झट	ADV	ADV	_	8	advmod	_	_
+4	झट	झट	ADV	ADV	_	10	advmod	_	_
 5	वजीर	वजीर	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 6	खटिया	खटिया	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	10	iobj	_	_
 7	तर	तर	ADP	ADP	_	6	case	_	_
 8	आन	आना	VERB	VERB	Aspect=Imp|Tense=Past	10	advcl	_	_
-9	के	चीरना	ADP	ADP	_	8	case	_	_
+9	के	के	ADP	ADP	_	8	case	_	_
 10	पड़	पड़ना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
-11	रहल	रहना	AUX	AUX	Aspect=Perf|Tense=Past	10	aux	_	_
+11	रहल	रहना	VERB	VERB	Aspect=Perf|Tense=Past	10	compound	_	_
 12	।	।	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = s1658
@@ -1200,26 +1203,26 @@
 2	रोसगद्दी	रोसगद्दी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	dobj	_	_
 3	कराके	कराना	VERB	VERB	Aspect=Imp|Tense=Pres	8	advcl	_	_
 4	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	dobj	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	अपने	अपने	PRON	PRON	Case=Gen|Number=Sing|Person=3	7	amod	_	_
 7	घरे	घरे	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	8	iobj	_	_
 8	ले	लेना	VERB	VERB	_	0	root	_	_
-9	अयलक	आना	AUX	AUX	Aspect=Perf|Tense=Past	8	aux	_	_
-10	आउ	आउ	CCONJ	CCONJ	_	_	_	_	_
-11	खुसी	खुसी	AUX	AUX	Case=Dat|Number=Sing|Person=3	13	advmod	_	_
+9	अयलक	आना	VERB	VERB	Aspect=Perf|Tense=Past	8	compound	_	_
+10	आउ	आउ	CCONJ	CCONJ	_	16	cc	_	_
+11	खुसी	खुसी	ADV	ADV	Case=Dat|Number=Sing|Person=3	13	advmod	_	_
 12	में	में	ADP	ADP	_	11	case	_	_
 13	रह	रहना	VERB	VERB	Aspect=Imp	16	advcl	_	_
-14	के	चीरना	AUX	AUX	_	13	case	_	_
-15	राज-पाट	राज-पाट	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	16	dobj	_	_
+14	के	के	ADP	ADP	_	13	case	_	_
+15	राज-पाट	राज-पाट	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	16	conjunct	_	_
 16	चलावे	चलाना	VERB	VERB	Aspect=Imp|Tense=Pres	8	conj	_	_
-17	लगल	लगना	AUX	AUX	Aspect=Imp|Tense=Pres	16	aux	_	_
+17	लगल	लगना	VERB	VERB	Aspect=Imp|Tense=Pres	16	compound	_	_
 18	।	।	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = s1659
 # text = ﻿दइतिन बहिन के करमात
 1	﻿दइतिन	﻿दइतिन	ADJ	ADJ	Case=Acc|Number=Sing|Person=3	2	amod	_	_
 2	बहिन	बहिन	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	करमात	करमात	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	0	root	_	_
 
 # sent_id = s1660
@@ -1227,7 +1230,7 @@
 1	उनका	उनका	PRON	PRON	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 2	एगो	एगो	NUM	NUM	_	3	nummod	_	_
 3	बेटा	बेटा	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	root	_	_
-4	हल	है	VERB	VERB	Aspect=Imp|Tense=Past	_	_	_	_
+4	हल	है	AUX	AUX	Aspect=Imp|Tense=Past	3	cop	_	_
 5	।	।	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = s1661
@@ -1235,12 +1238,12 @@
 1	जब	जब	PRON	PRON	_	8	obl	_	_
 2	बेटा	बेटा	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	dobj	_	_
 3	छव	छव	NUM	NUM	_	6	nummod	_	_
-4	-	-	PUNCT	PUNCT	_	5	punct	_	_
-5	सात	सात	NUM	NUM	_	6	nummod	_	_
+4	-	-	PUNCT	PUNCT	_	3	punct	_	_
+5	सात	सात	NUM	NUM	_	3	compound	_	_
 6	साल	साल	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	iobj	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	हो	होना	VERB	VERB	Aspect=Imp|Tense=Past	10	acl:relcl	_	_
-9	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	8	aux	_	_
+9	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	8	compound	_	_
 10	तब	तब	PRON	PRON	_	15	obl	_	_
 11	पढ़े	पढ़ना	VERB	VERB	_	15	advcl	_	_
 12	ला	लाना	ADP	ADP	_	11	case	_	_
@@ -1254,7 +1257,7 @@
 # text = फिनो राजा के एगो दइतिन लड़की जनम लेलक ।
 1	फिनो	फिनो	CCONJ	CCONJ	_	8	advmod	_	_
 2	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	एगो	एगो	NUM	NUM	_	6	nummod	_	_
 5	दइतिन	दइतिन	ADJ	ADJ	_	6	amod	_	_
 6	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	8	dobj	_	_
@@ -1266,7 +1269,7 @@
 # text = जब राजा के एकर जानकारी भेल तऽ ऊ अप्पन बेटा के कहलन कि तू जा के लड़की के तलबार से मूँड़ी काट दे ।
 1	जब	जब	PRON	PRON	_	6	obl	_	_
 2	राजा	राजा	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	एकर	एकर	DET	DET	_	5	null	_	_
 5	जानकारी	जानकारी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	compound	_	_
 6	भेल	होना	VERB	VERB	Aspect=Perf|Tense=Past	7	acl:relcl	_	_
@@ -1274,19 +1277,19 @@
 8	ऊ	ऊ	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 9	अप्पन	अप्पन	PRON	PRON	Case=Gen|Number=Sing|Person=3	10	nmod	_	_
 10	बेटा	बेटा	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	iobj	_	_
-11	के	चीरना	ADP	ADP	_	10	case	_	_
+11	के	के	ADP	ADP	_	10	case	_	_
 12	कहलन	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 13	कि	कि	SCONJ	SCONJ	_	22	mark	_	_
 14	तू	तू	PRON	PRON	Case=Nom|Number=Sing|Person=2	22	nsubj	_	_
 15	जा	जाना	VERB	VERB	_	22	advcl	_	_
-16	के	चीरना	ADP	ADP	_	15	case	_	_
+16	के	के	ADP	ADP	_	15	case	_	_
 17	लड़की	लड़की	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	21	nmod	_	_
-18	के	चीरना	ADP	ADP	_	17	case	_	_
+18	के	के	ADP	ADP	_	17	case	_	_
 19	तलबार	तलबार	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	22	iobj	_	_
 20	से	से	ADP	ADP	_	19	case	_	_
 21	मूँड़ी	मूँड़ी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	22	dobj	_	_
 22	काट	काटना	VERB	VERB	Aspect=Perf|Tense=Pres	12	iobj	_	_
-23	दे	देना	AUX	AUX	Aspect=Perf|Tense=Pres	22	aux	_	_
+23	दे	देना	VERB	VERB	Aspect=Perf|Tense=Pres	22	compound	_	_
 24	।	।	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = s1664
@@ -1296,7 +1299,7 @@
 3	लेके	लेना	VERB	VERB	_	5	advcl	_	_
 4	मूँड़ी	मूँड़ी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	dobj	_	_
 5	काटे	काटना	VERB	VERB	_	7	acl:relcl	_	_
-6	चलल	चलना	AUX	AUX	Aspect=Perf	5	aux	_	_
+6	चलल	चलना	VERB	VERB	Aspect=Perf	5	compound	_	_
 7	तब	तब	PRON	PRON	_	9	obj	_	_
 8	माय	माय	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
 9	बोलल	बोलना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
@@ -1323,12 +1326,12 @@
 2	उहाँ	उहाँ	PRON	PRON	Case=Loc|Number=Sing|Person=3	6	iobj	_	_
 3	से	से	ADP	ADP	_	2	case	_	_
 4	लौट	लौटना	VERB	VERB	_	6	advcl	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	चल	चलना	VERB	VERB	_	0	root	_	_
-7	आयल	आना	AUX	AUX	Aspect=Perf|Tense=Past	6	aux	_	_
+7	आयल	आना	VERB	VERB	Aspect=Perf|Tense=Past	_	_	6:compound	_
 8	आउ	आउ	CCONJ	CCONJ	_	14	cc	_	_
 9	बाप	बाप	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	iobj	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	पास	पास	NOUN	NOUN	_	9	case	_	_
 12	सब	सब	DET	DET	_	13	det	_	_
 13	हाल	हाल	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	null	_	_
@@ -1341,24 +1344,24 @@
 2	सुनलन	सुनना	VERB	VERB	Aspect=Perf|Tense=Past	9	advcl	_	_
 3	तो	तो	PRON	PRON	_	9	mark	_	_
 4	एँड़ी	एँड़ी	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	लहर	लहर	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	dobj	_	_
 7	कपार	कपार	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
 8	पर	पर	ADP	ADP	_	7	case	_	_
 9	चढ़	चढ़ना	VERB	VERB	Tense=Past	17	advcl	_	_
-10	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	9	aux	_	_
+10	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	9	compound	_	_
 11	तुरत	तुरत	NOUN	NOUN	_	13	advmod	_	_
 12	तलवार	तलवार	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	13	dobj	_	_
 13	उठाके	उठाना	VERB	VERB	_	17	advcl	_	_
 14	लड़की	लड़की	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
-15	के	चीरना	ADP	ADP	_	14	case	_	_
+15	के	के	ADP	ADP	_	14	case	_	_
 16	मूँडी	मूँडी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	17	dobj	_	_
 17	काटे	काटना	VERB	VERB	Aspect=Imp	23	advcl	_	_
-18	चललन	चलना	AUX	AUX	Aspect=Perf|Tense=Pres	17	aux	_	_
+18	चललन	चलना	VERB	VERB	Aspect=Perf|Tense=Pres	17	compound	_	_
 19	तब	तब	PRON	PRON	_	23	mark	_	_
 20	रानी	रानी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	23	nsubj	_	_
 21	देख	देखना	VERB	VERB	Aspect=Perf|Tense=Past	23	advcl	_	_
-22	के	चीरना	AUX	AUX	_	21	advcl	_	_
+22	के	के	ADP	ADP	_	21	case	_	_
 23	कहलन	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 24	कि	कि	SCONJ	SCONJ	_	29	mark	_	_
 25	अब	अब	ADV	ADV	_	29	advmod	_	_
@@ -1375,12 +1378,12 @@
 3	रानी	रानी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 4	कहलन	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 5	-	-	PUNCT	PUNCT	_	4	punct	_	_
-6	पहिले	पहिले	NUM	NUM	_	10	advmod	_	_
+6	पहिले	पहिले	SCONJ	SCONJ	_	10	mark	_	_
 7	लड़की	लड़की	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
-8	के	चीरना	ADP	ADP	_	7	case	_	_
+8	के	के	ADP	ADP	_	7	case	_	_
 9	सूरत	सूरत	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	dobj	_	_
 10	देख	देखना	VERB	VERB	Aspect=Perf|Tense=Past	4	iobj	_	_
-11	लेई	लेना	AUX	AUX	Aspect=Perf|Tense=Past	10	aux	_	_
+11	लेई	लेना	VERB	VERB	Aspect=Perf|Tense=Past	10	compound	_	_
 12	।	।	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = s1668
@@ -1390,7 +1393,7 @@
 3	रानी	रानी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	conj	_	_
 4	खटिया	खटिया	NOUN	NOUN	Case=Loc	6	iobj	_	_
 5	पर	पर	ADP	ADP	_	4	case	_	_
-6	बइठलन	बइठना	NOUN	NOUN	Aspect=Perf|Tense=Past	0	root	_	_
+6	बइठलन	बइठना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 7	आउ	आउ	CCONJ	CCONJ	_	9	cc	_	_
 8	खटिया	खटिया	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	dobj	_	_
 9	उड़ल	उड़ना	VERB	VERB	Aspect=Perf|Tense=Past	6	conj	_	_
@@ -1403,69 +1406,69 @@
 3	में	में	ADP	ADP	_	2	case	_	_
 4	लेके	लेना	VERB	VERB	Aspect=Perf|Tense=Past	8	advcl	_	_
 5	लड़की	लड़की	NOUN	NOUN	Gender=Fem|Number=Sing|Person=3	7	nmod	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	सूरत	सूरत	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	dobj	_	_
 8	निहारलन	निहारना	VERB	VERB	Aspect=Perf|Tense=Past	11	advcl	_	_
 9	तो	तो	PRON	PRON	_	11	mark	_	_
-10	मोह	मोह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	compound	_	_
+10	मोह	मोह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	conjunct	_	_
 11	आ	आना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
-12	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	11	aux	_	_
+12	गेल	जाना	null	null	Aspect=Perf|Tense=Past	11	compound	_	_
 13	आउ	आउ	CCONJ	CCONJ	_	16	cc	_	_
 14	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	dobj	_	_
-15	के	चीरना	ADP	ADP	_	14	case	_	_
+15	के	के	ADP	ADP	_	14	case	_	_
 16	छोड़	छोड़ना	VERB	VERB	Aspect=Perf	11	conj	_	_
-17	देलन	देना	AUX	AUX	Aspect=Perf|Tense=Past	16	aux	_	_
+17	देलन	देना	VERB	VERB	Aspect=Perf|Tense=Past	16	aux	_	_
 18	।	।	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = s1670
 # text = जब लड़की जवान हो गेल तो सहर के सब लोग के पारा-पारी खाय लगल ।
 1	जब	जब	PRON	PRON	_	4	obl	_	_
 2	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	dobj	_	_
-3	जवान	जवान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	compound	_	_
+3	जवान	जवान	ADJ	ADJ	Case=Acc|Number=Sing|Person=3	4	conjunct	_	_
 4	हो	होना	VERB	VERB	_	13	advcl	_	_
-5	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	4	aux	_	_
+5	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	4	compound	_	_
 6	तो	तो	PRON	PRON	_	13	mark	_	_
 7	सहर	सहर	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	10	nmod	_	_
-8	के	चीरना	ADP	ADP	_	7	case	_	_
+8	के	के	ADP	ADP	_	7	case	_	_
 9	सब	सब	DET	DET	_	10	det	_	_
 10	लोग	लोग	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	13	dobj	_	_
-11	के	चीरना	ADP	ADP	_	10	case	_	_
+11	के	के	ADP	ADP	_	10	case	_	_
 12	पारा-पारी	पारा-पारी	ADV	ADV	_	13	advmod	_	_
 13	खाय	खाना	VERB	VERB	_	0	root	_	_
-14	लगल	लगना	AUX	AUX	Aspect=Perf|Tense=Past	13	aux	_	_
+14	लगल	लगना	VERB	VERB	Aspect=Perf|Tense=Past	13	compound	_	_
 15	।	।	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = s1671
 # text = लोग डर के मारे भागे लगलन ।
 1	लोग	लोग	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
 2	डर	डरना	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	5	iobj	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
-4	मारे	मारना	ADP	ADP	_	2	nmod	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
+4	मारे	मारे	ADP	ADP	_	2	nmod	_	_
 5	भागे	भागना	VERB	VERB	Aspect=Imp	0	root	_	_
-6	लगलन	लगना	AUX	AUX	Aspect=Perf|Tense=Past	5	aux	_	_
+6	लगलन	लगना	VERB	VERB	Aspect=Perf|Tense=Past	5	compound	_	_
 7	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1672
 # text = राजा के सम्पत्ति ओरा देलक ।
 1	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	सम्पत्ति	सम्पत्ति	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	4	dobj	_	_
 4	ओरा	ओरा	VERB	VERB	_	_	_	_	_
-5	देलक	देना	VERB	VERB	Aspect=Perf|Tense=Past	4	aux	_	_
+5	देलक	देना	VERB	VERB	Aspect=Perf|Tense=Past	4	compound	_	_
 6	।	।	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = s1673
 # text = घोड़सार के सबहे घोड़ा , सबहे जनावर के खा गेल ।
 1	घोड़सार	घोड़सार	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	सबहे	सबहे	DET	DET	_	4	det	_	_
 4	घोड़ा	घोड़ा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	dobj	_	_
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_
 6	सबहे	सबहे	DET	DET	_	7	det	_	_
 7	जनावर	जनावर	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	dobj	_	_
-8	के	चीरना	ADP	ADP	_	7	case	_	_
+8	के	के	ADP	ADP	_	7	case	_	_
 9	खा	खाना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
-10	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	9	aux	_	_
+10	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	9	compound	_	_
 11	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1674
@@ -1476,17 +1479,17 @@
 4	कि	कि	SCONJ	SCONJ	_	11	mark	_	_
 5	ई	ई	DET	DET	_	6	det	_	_
 6	बाप	बाप	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	dobj	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	भी	भी	PART	PART	_	6	dep	_	_
 9	काहे	काहे	PRON	PRON	_	11	advmod	_	_
-10	न	न	PART	PART	_	11	advmod	_	_
+10	न	न	PART	PART	_	11	neg	_	_
 11	खा	खाना	VERB	VERB	Aspect=Imp|Tense=Pres	3	iobj	_	_
-12	जाऊँ	जाना	AUX	AUX	Aspect=Imp|Tense=Fut	11	aux	_	_
+12	जाऊँ	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	11	compound	_	_
 13	कि	कि	SCONJ	SCONJ	_	16	mark	_	_
 14	हम्मर	हम्मर	PRON	PRON	Case=Gen|Number=Sing|Person=1	15	nmod	_	_
 15	राज-पाट	राज-पाट	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	16	dobj	_	_
 16	हो	होना	VERB	VERB	Aspect=Imp|Tense=Fut	11	iobj	_	_
-17	जाय	जाना	AUX	AUX	Aspect=Imp|Tense=Fut	16	aux	_	_
+17	जाय	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	16	compound	_	_
 18	।	।	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = s1675
@@ -1497,23 +1500,23 @@
 4	दिन	दिन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	13	iobj	_	_
 5	दइतिन	दइतिन	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
 6	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	दरबार	दरबार	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	13	iobj	_	_
 9	में	में	ADP	ADP	_	8	case	_	_
-10	बइठले	बइठना	VERB	VERB	_	13	null	_	_
+10	बइठले	बइठना	VERB	VERB	_	13	acl	_	_
 11	में	में	ADP	ADP	_	10	case	_	_
 12	जाके	जाना	VERB	VERB	Aspect=Imp|Tense=Past	13	advcl	_	_
 13	खा	खाना	AUX	AUX	Aspect=Perf|Tense=Past	_	_	_	_
-14	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	13	aux	_	_
+14	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	13	compound	_	_
 15	।	।	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = s1676
 # text = परजा लोग देखके भाग चललन ।
-1	परजा	परजा	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	2	amod	_	_
-2	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+1	परजा	परजा	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	लोग	लोग	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	1	flat	_	_
 3	देखके	देखना	VERB	VERB	Aspect=Perf|Tense=Past	4	advcl	_	_
 4	भाग	भागना	VERB	VERB	Aspect=Perf|Tense=Past	_	_	_	_
-5	चललन	चलना	AUX	AUX	Aspect=Perf|Tense=Past	4	aux	_	_
+5	चललन	चलना	VERB	VERB	Aspect=Perf|Tense=Past	4	compound	_	_
 6	।	।	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = s1677
@@ -1521,11 +1524,11 @@
 1	एकरा	एकरा	DET	DET	_	2	det	_	_
 2	बाद	बाद	ADP	ADP	_	7	advmod	_	_
 3	अप्पन	अप्पन	PRON	PRON	Case=Gen|Number=Sing|Person=1	4	amod	_	_
-4	माय	माय	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	null	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+4	माय	माय	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	dobj	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	भी	भी	PART	PART	_	4	dep	_	_
 7	खा	खाना	VERB	VERB	Aspect=Perf|Tense=Past	_	_	_	_
-8	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	7	aux	_	_
+8	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	7	compound	_	_
 9	।	।	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = s1678
@@ -1533,16 +1536,16 @@
 1	दइतिन	दइतिन	ADJ	ADJ	_	2	amod	_	_
 2	लड़की	लड़की	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 3	सब	सब	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	5	dobj	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	खा	खाना	VERB	VERB	Aspect=Perf|Tense=Past	8	advcl	_	_
-6	के	चीरना	AUX	AUX	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	निश्चिन्त	निश्चिन्त	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	conjunct	_	_
 8	होके	होना	VERB	VERB	Aspect=Perf	14	advcl	_	_
 9	बाहर	बाहर	NOUN	NOUN	Case=Loc	12	nmod	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	बचल-खुचल	बचल-खुचल	ADJ	ADJ	_	12	amod	_	_
 12	अमदी	अमदी	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	dobj	_	_
-13	के	चीरना	ADP	ADP	_	12	case	_	_
+13	के	के	ADP	ADP	_	12	case	_	_
 14	खाय	खाना	VERB	VERB	Aspect=Imp|Tense=Pres	0	root	_	_
 15	लगल	लगना	AUX	AUX	Aspect=Perf|Tense=Pres	14	aux	_	_
 16	।	।	PUNCT	PUNCT	_	14	punct	_	_
@@ -1551,14 +1554,14 @@
 # text = लाल गमछा के बात होइते हल कि खटिया दैत्य के महल में आ गिरल ।
 1	लाल	लाल	ADJ	ADJ	_	2	amod	_	_
 2	गमछा	गमछा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	बात	बात	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	dobj	_	_
 5	होइते	होना	VERB	VERB	Aspect=Prog|Tense=Pres	0	root	_	_
 6	हल	है	AUX	AUX	Aspect=Prog|Tense=Past	5	aux	_	_
 7	कि	कि	SCONJ	SCONJ	_	13	mark	_	_
 8	खटिया	खटिया	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	13	iobj	_	_
 9	दैत्य	दैत्य	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	11	nmod	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	महल	महल	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	13	iobj	_	_
 12	में	में	ADP	ADP	_	11	case	_	_
 13	आ	आना	VERB	VERB	Aspect=Perf|Tense=Pres	5	acl	_	_
@@ -1567,11 +1570,11 @@
 
 # sent_id = s1680
 # text = फिर सोचलक कि भइयो के भी काहे न खा जाऊँ कि एकदम निफिकरे होके कुलेल करब ।
-1	फिर	फिर	CCONJ	CCONJ	_	2	advmod	_	_
+1	फिर	फिर	CCONJ	CCONJ	_	2	mark	_	_
 2	सोचलक	सोचना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 3	कि	कि	SCONJ	SCONJ	_	9	mark	_	_
 4	भइयो	भइयो	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	dobj	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	भी	भी	PART	PART	_	4	dep	_	_
 7	काहे	काहे	PRON	PRON	_	9	advmod	_	_
 8	न	न	PART	PART	_	9	advmod	_	_
@@ -1593,19 +1596,19 @@
 4	ओकर	ओकर	PRON	PRON	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 5	भाई	भाई	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 6	पढ़	पढ़ना	VERB	VERB	Aspect=Perf|Tense=Past	10	advcl	_	_
-7	के	चीरना	AUX	AUX	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	रस्ता	रस्ता	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	10	iobj	_	_
 9	में	में	ADP	ADP	_	8	case	_	_
 10	आवइत	आना	VERB	VERB	Aspect=Prog	15	advcl	_	_
 11	हल	है	AUX	AUX	Aspect=Prog|Tense=Pres	10	aux	_	_
-12	तो	तो	PRON	PRON	_	15	advmod	_	_
+12	तो	तो	PRON	PRON	_	15	mark	_	_
 13	एगो	एगो	NUM	NUM	_	14	nummod	_	_
 14	बुढ़िया	बुढ़िया	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	15	nsubj	_	_
-15	कहलक	कहना	VERB	VERB	Aspect=Perf|Tense=Past	_	_	_	_
+15	कहलक	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 16	कि	कि	SCONJ	SCONJ	_	18	mark	_	_
 17	``	``	PUNCT	PUNCT	_	18	punct	_	_
 18	भागा	भागना	VERB	VERB	_	15	iobj	_	_
-19	जा	जाना	AUX	AUX	_	18	aux	_	_
+19	जा	जाना	VERB	VERB	_	18	compound	_	_
 20	बबुआा	बबुआा	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	dobj	_	_
 21	,	,	PUNCT	PUNCT	_	18	punct	_	_
 22	न	न	PART	PART	_	27	dep	_	_
@@ -1620,19 +1623,19 @@
 # sent_id = s1682
 # text = सभे के तो खाइये गेल्थुन ।
 1	सभे	सभे	DET	DET	Case=Acc|Number=Plur|Person=3	4	dobj	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	तो	तो	PRON	PRON	_	1	dep	_	_
-4	खाइये	खाना	VERB	VERB	Aspect=Perf|Tense=Past	_	_	_	_
-5	गेल्थुन	जाना	AUX	AUX	Aspect=Perf|Tense=Past	4	aux	_	_
+4	खाइये	खाना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
+5	गेल्थुन	जाना	VERB	VERB	Aspect=Perf|Tense=Past	4	compound	_	_
 6	।	।	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = s1683
 # text = लड़का के विसवास न भेल ।
 1	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	विसवास	विसवास	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	conjunct	_	_
-4	न	न	PART	PART	_	5	advmod	_	_
-5	भेल	होना	VERB	VERB	Aspect=Perf|Tense=Past	_	_	_	_
+4	न	न	PART	PART	_	5	neg	_	_
+5	भेल	होना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 6	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1684
@@ -1647,14 +1650,14 @@
 8	ला	लाना	ADP	ADP	_	7	case	_	_
 9	रोटी	रोटी	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	dobj	_	_
 10	दे	देना	VERB	VERB	Aspect=Perf	0	root	_	_
-11	देलक	देना	AUX	AUX	Aspect=Perf|Tense=Past	10	aux	_	_
+11	देलक	देना	VERB	VERB	Aspect=Perf|Tense=Past	10	compound	_	_
 12	आउ	आउ	CCONJ	CCONJ	_	17	cc	_	_
 13	सहर	सहर	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	17	iobj	_	_
 14	में	में	ADP	ADP	_	13	case	_	_
 15	अदमी	अदमी	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	17	dobj	_	_
-16	के	चीरना	ADP	ADP	_	15	case	_	_
+16	के	के	ADP	ADP	_	15	case	_	_
 17	खाय	खाना	VERB	VERB	_	10	conj	_	_
-18	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	17	aux	_	_
+18	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	17	compound	_	_
 19	आउ	आउ	CCONJ	CCONJ	_	23	cc	_	_
 20	ओने	आना	PRON	PRON	Case=Loc	22	iobj	_	_
 21	से	से	ADP	ADP	_	20	case	_	_
@@ -1687,18 +1690,18 @@
 7	एगो	एगो	NUM	NUM	_	8	nummod	_	_
 8	मूस	मूस	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 9	निकल	निकलना	VERB	VERB	_	11	advcl	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	कहलक	कहना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 12	कि	कि	SCONJ	SCONJ	_	22	mark	_	_
 13	ए	ए	INTJ	INTJ	_	16	dep	_	_
 14	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
-15	के	चीरना	ADP	ADP	_	14	case	_	_
+15	के	के	ADP	ADP	_	14	case	_	_
 16	लड़का	लड़का	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	obl	_	_
 17	तू	तू	PRON	PRON	_	22	nsubj	_	_
 18	निफिकिरे	निफिकिरे	ADV	ADV	_	22	advmod	_	_
 19	बइठ	बइठना	VERB	VERB	_	22	advcl	_	_
-20	के	चीरना	AUX	AUX	_	19	case	_	_
-21	नस्ता	नस्ता	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	22	dobj	_	_
+20	के	के	ADP	ADP	_	19	case	_	_
+21	नस्ता	नस्ता	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	22	conjunct	_	_
 22	करइत	करना	VERB	VERB	Aspect=Prog|Tense=Pres	11	iobj	_	_
 23	हऽ	है	AUX	AUX	Aspect=Prog|Tense=Pres	22	aux	_	_
 24	बाकि	बाकि	CCONJ	CCONJ	_	28	cc	_	_
@@ -1714,12 +1717,12 @@
 2	बहिन	बहिन	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 3	अभी	अभी	ADV	ADV	_	8	advmod	_	_
 4	सहर	सहर	NOUN	NOUN	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	अदमी	अदमी	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	dobj	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	खाय	खाना	VERB	VERB	Aspect=Perf	0	root	_	_
-9	गेलथुन	जाना	AUX	AUX	Aspect=Perf|Tense=Past	10	aux	_	_
-10	हे	है	AUX	AUX	Tense=Pres	_	_	_	_
+9	गेलथुन	जाना	VERB	VERB	Aspect=Perf|Tense=Past	8	compound	_	_
+10	हे	है	AUX	AUX	Tense=Pres	9	aux	_	_
 11	आउ	आउ	CCONJ	CCONJ	_	14	cc	_	_
 12	आके	आना	VERB	VERB	_	14	advcl	_	_
 13	तोहरा	तोहरा	PRON	PRON	Case=Acc|Number=Sing|Person=2	14	dobj	_	_
@@ -1741,11 +1744,11 @@
 10	हमर	हमर	PRON	PRON	Case=Gen|Number=Sing|Person=3	11	nmod	_	_
 11	जान	जानना	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	12	dobj	_	_
 12	बचे	बचना	VERB	VERB	_	15	nmod	_	_
-13	के	चीरना	ADP	ADP	_	12	case	_	_
+13	के	के	ADP	ADP	_	12	case	_	_
 14	कोई	कोई	PRON	PRON	Case=Acc|Person=3	15	nmod	_	_
 15	उपाय	उपाय	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	iobj	_	_
-16	न	न	PART	PART	_	15	advmod	_	_
-17	हे	है	VERB	VERB	Tense=Pres	15	cop	_	_
+16	न	न	PART	PART	_	15	neg	_	_
+17	हे	है	AUX	AUX	Tense=Pres	15	cop	_	_
 18	।	।	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = s1689
@@ -1755,18 +1758,18 @@
 3	बतवले	बताना	VERB	VERB	Aspect=Perf|Tense=Past	6	advcl	_	_
 4	तो	तो	PRON	PRON	_	6	mark	_	_
 5	ऐहू	ऐहू	DET	DET	_	6	det	_	_
-6	बताव	बताना	VERB	VERB	Aspect=Imp|Tense=Fut	_	_	_	_
+6	बताव	बताना	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
 7	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = s1690
 # text = रानी के आवे के बेरा हो गेलई हल ।
 1	रानी	रानी	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	आवे	आना	VERB	VERB	_	5	nmod	_	_
-4	के	चीरना	AUX	AUX	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	बेरा	बेरा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	iobj	_	_
 6	हो	होना	VERB	VERB	_	0	root	_	_
-7	गेलई	जाना	AUX	AUX	Aspect=Perf|Tense=Past	6	aux	_	_
+7	गेलई	जाना	VERB	VERB	Aspect=Perf|Tense=Past	6	compound	_	_
 8	हल	है	AUX	AUX	Tense=Past	7	aux	_	_
 9	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -1778,12 +1781,12 @@
 4	``	``	PUNCT	PUNCT	_	2	punct	_	_
 5	तोहर	तोहर	PRON	PRON	Case=Gen|Number=Sing|Person=2	6	nmod	_	_
 6	बाप	बाप	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	कोठरी	कोठरी	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	16	iobj	_	_
 9	में	में	ADP	ADP	_	8	case	_	_
 10	एगो	एगो	NUM	NUM	_	11	nummod	_	_
 11	घोड़ा	घोड़ा	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	dobj	_	_
-12	के	चीरना	ADP	ADP	_	11	case	_	_
+12	के	के	ADP	ADP	_	11	case	_	_
 13	ताला	ताला	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	dobj	_	_
 14	बंद	बंद	NOUN	NOUN	Case=Acc|Number=Sing	15	conjunct	_	_
 15	करके	करना	VERB	VERB	_	16	advcl	_	_
@@ -1803,7 +1806,7 @@
 
 # sent_id = s1693
 # text = देखऽ अगर ऊ बचइत होवे तो तु भाग जा सकऽ हऽ ।
-1	देखऽ	देखना	VERB	VERB	_	_	_	_	_
+1	देखऽ	देखना	VERB	VERB	_	0	root	_	_
 2	अगर	अगर	SCONJ	SCONJ	_	4	mark	_	_
 3	ऊ	ऊ	PRON	PRON	Case=Acc|Number=Sing|Person=3	4	nsubj	_	_
 4	बचइत	बचना	VERB	VERB	Aspect=Imp	8	advcl	_	_
@@ -1826,13 +1829,13 @@
 6	आउ	आउ	CCONJ	CCONJ	_	14	cc	_	_
 7	ताला	ताला	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
 8	खोल	खोलना	VERB	VERB	_	14	advcl	_	_
-9	के	चीरना	AUX	AUX	_	8	case	_	_
+9	के	के	AUX	AUX	_	8	case	_	_
 10	घोड़ा	घोड़ा	NOUN	NOUN	Case=Loc|Gender=Masc|Number=Sing|Person=3	12	iobj	_	_
 11	पर	पर	ADP	ADP	_	10	case	_	_
 12	सवार	सवार	VERB	VERB	_	14	advcl	_	_
-13	होके	होना	AUX	AUX	_	12	compound	_	_
-14	भाग	भागना	AUX	AUX	Aspect=Perf	5	conj	_	_
-15	चलल	चलना	AUX	AUX	Aspect=Perf|Tense=Pres	14	aux	_	_
+13	होके	होना	VERB	VERB	_	12	compound	_	_
+14	भाग	भागना	VERB	VERB	Aspect=Perf	5	conj	_	_
+15	चलल	चलना	VERB	VERB	Aspect=Perf|Tense=Pres	14	compound	_	_
 16	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = s1695
@@ -1844,15 +1847,15 @@
 5	आयल	आना	VERB	VERB	Aspect=Perf	0	root	_	_
 6	आउ	आउ	CCONJ	CCONJ	_	13	cc	_	_
 7	भाई	भाई	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	dobj	_	_
-8	के	चीरना	ADP	ADP	_	7	case	_	_
-9	न	न	PART	PART	_	10	advmod	_	_
+8	के	के	ADP	ADP	_	7	case	_	_
+9	न	न	PART	PART	_	10	neg	_	_
 10	देखलक	देखना	VERB	VERB	Aspect=Perf|Tense=Past	13	advcl	_	_
 11	तो	तो	PRON	PRON	_	13	mark	_	_
 12	सगरो	सगरो	ADV	ADV	_	13	iobj	_	_
 13	खोजलक	खोजना	VERB	VERB	_	5	conj	_	_
 14	बाकि	बाकि	CCONJ	CCONJ	_	24	cc	_	_
 15	कनहूँ	कनहूँ	ADV	ADV	_	17	advmod	_	_
-16	न	न	PART	PART	_	17	advmod	_	_
+16	न	न	PART	PART	_	17	neg	_	_
 17	देखाई	देखना	VERB	VERB	_	24	advcl	_	_
 18	परल	परना	AUX	AUX	_	17	aux	_	_
 19	तो	तो	PRON	PRON	_	24	mark	_	_
@@ -1877,7 +1880,7 @@
 38	दउड़ल	दौड़ना	VERB	VERB	Aspect=Perf	24	iobj	_	_
 39	बाकि	बाकि	CCONJ	CCONJ	_	40	cc	_	_
 40	पकड़ा	पकड़ना	VERB	VERB	Aspect=Perf	38	conj	_	_
-41	न	न	PART	PART	_	40	advmod	_	_
+41	न	न	PART	PART	_	40	neg	_	_
 42	सकल	सकना	AUX	AUX	Aspect=Perf|Tense=Past	40	aux	_	_
 43	।	।	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -1901,13 +1904,13 @@
 1	फिन	फिन	ADV	ADV	_	3	advmod	_	_
 2	तो	तो	PRON	PRON	_	3	mark	_	_
 3	अयवे	आना	VERB	VERB	Aspect=Perf	_	_	_	_
-4	करवें	करना’	AUX	AUX	Aspect=Imp|Tense=Fut	3	aux	_	_
+4	करवें	करना’	VERB	VERB	Aspect=Imp|Tense=Fut	3	compound	_	_
 5	।	।	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = s1698
 # text = राजा के लड़का एगो भारी जंगल में पहुँचलन आउ घोड़ा के एगो बड़का गो बड़ के पेड़ के नीचे छोड़ देलन आउ कहलन कि ए घोड़ा , तूँ एगो जगुन चर-चुर के अप्पन जीवन ।
 1	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	लड़का	लड़का	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 4	एगो	एगो	NUM	NUM	_	6	nummod	_	_
 5	भारी	भारी	ADJ	ADJ	_	6	amod	_	_
@@ -1916,14 +1919,14 @@
 8	पहुँचलन	पहुचना	VERB	VERB	Aspect=Perf	0	root	_	_
 9	आउ	आउ	CCONJ	CCONJ	_	20	cc	_	_
 10	घोड़ा	घोड़ा	NOUN	NOUN	Gender=Masc|Number=Sing|Person=3	20	dobj	_	_
-11	के	चीरना	ADP	ADP	_	10	case	_	_
+11	के	के	ADP	ADP	_	10	case	_	_
 12	एगो	एगो	NUM	NUM	_	15	nummod	_	_
 13	बड़का	बड़का	ADJ	ADJ	_	15	amod	_	_
-14	गो	गो	NUM	NUM	_	13	advmod	_	_
+14	गो	गो	PART	PART	_	13	dep	_	_
 15	बड़	बड़	PROPN	PROPN	Case=Acc|Number=Sing|Person=3	17	nmod	_	_
-16	के	चीरना	ADP	ADP	_	15	case	_	_
+16	के	के	ADP	ADP	_	15	case	_	_
 17	पेड़	पड़ना	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	19	nmod	_	_
-18	के	चीरना	ADP	ADP	_	17	case	_	_
+18	के	के	ADP	ADP	_	17	case	_	_
 19	नीचे	नाचना	NOUN	NOUN	Case=Loc	20	iobj	_	_
 20	छोड़	छोड़ना	VERB	VERB	_	8	conj	_	_
 21	देलन	देना	AUX	AUX	Aspect=Perf|Tense=Past	20	compound	_	_
@@ -1937,7 +1940,7 @@
 29	एगो	एगो	NUM	NUM	_	30	nummod	_	_
 30	जगुन	जगुन	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	31	iobj	_	_
 31	चर-चुर	चर-चुर	VERB	VERB	_	23	iobj	_	_
-32	के	चीरना	AUX	AUX	_	31	case	_	_
+32	के	के	ADP	ADP	_	31	case	_	_
 33	अप्पन	अप्पन	PRON	PRON	Case=Gen|Number=Sing|Person=1	34	nmod	_	_
 34	जीवन	जीवन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	31	iobj	_	_
 35	।	।	PUNCT	PUNCT	_	8	punct	_	_
@@ -1946,7 +1949,7 @@
 # text = ﻿दइतिन बहिन के करमात बीतइहऽ ।
 1	﻿दइतिन	﻿दइतिन	ADJ	ADJ	_	2	amod	_	_
 2	बहिन	बहिन	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	करमात	करमात	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	dobj	_	_
 5	बीतइहऽ	बताना	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
 6	।	।	PUNCT	PUNCT	_	5	punct	_	_
@@ -1957,11 +1960,11 @@
 2	बरीस	बरीस	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	4	advmod	_	_
 3	आसा-पुराई	आसा-पुराई	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	iobj	_	_
 4	देख	देखना	VERB	VERB	_	8	advcl	_	_
-5	के	चीरना	AUX	AUX	_	4	case	_	_
+5	के	के	AUX	AUX	_	4	case	_	_
 6	अप्पन	अप्पन	PRON	PRON	Case=Gen|Number=Sing|Person=1	7	nmod	_	_
-7	परान	परान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	dobj	_	_
+7	परान	परान	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	conjunct	_	_
 8	छोड़	छोड़ना	VERB	VERB	_	0	root	_	_
-9	दीहऽ	देना	AUX	AUX	Aspect=Perf|Tense=Fut	8	compound	_	_
+9	दीहऽ	देना	VERB	VERB	Aspect=Perf|Tense=Fut	8	compound	_	_
 10	।	।	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = s1701
@@ -1971,23 +1974,23 @@
 3	फेर	फेर	ADV	ADV	_	8	advmod	_	_
 4	लाल	लाल	ADJ	ADJ	_	5	null	_	_
 5	गमछा	गमछा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	_	_	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	इयाद	इयाद	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	conjunct	_	_
 8	करावे	करना	VERB	VERB	Case=Dat	14	advcl	_	_
-9	लाल	लाल	AUX	AUX	_	8	compound	_	_
-10	तलगुत	तलगुत	ADJ	ADJ	_	14	advmod	_	_
+9	लाल	लाल	VERB	VERB	_	8	compound	_	_
+10	तलगुत	तलगुत	ADV	ADV	_	14	advmod	_	_
 11	वजीर	वजीर	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	nsubj	_	_
-12	के	चीरना	ADP	ADP	_	11	case	_	_
+12	के	के	ADP	ADP	_	11	case	_	_
 13	मौका	मौका	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	14	dobj	_	_
 14	मिलल	मिलना	VERB	VERB	Aspect=Perf	0	root	_	_
 15	आओ	आओ	SCONJ	SCONJ	_	21	cc	_	_
 16	घुसुक	घुसुकना	VERB	VERB	Case=Acc	21	advcl	_	_
-17	के	चीरना	ADP	ADP	_	16	case	_	_
+17	के	के	ADP	ADP	_	16	case	_	_
 18	घर	घर	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	21	iobj	_	_
 19	से	से	ADP	ADP	_	18	case	_	_
 20	वाहर	वाहर	NOUN	NOUN	Case=Loc	21	iobj	_	_
 21	हो	होना	VERB	VERB	_	14	conj	_	_
-22	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	21	compound	_	_
+22	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	21	compound	_	_
 23	।	।	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = s1702
@@ -1995,25 +1998,25 @@
 1	एतना	एतना	DET	DET	Case=Acc|Number=Plur|Person=3	2	det	_	_
 2	कहके	कहना	VERB	VERB	Aspect=Imp	9	advcl	_	_
 3	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	लड़का	लड़का	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
-6	पैदले	पैदले	NOUN	NOUN	_	9	advmod	_	_
-7	जंगल	जगना	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
+6	पैदले	पैदले	ADV	ADV	_	9	advmod	_	_
+7	जंगल	जंगल	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
 8	में	में	ADP	ADP	_	7	case	_	_
 9	चल	चलना	VERB	VERB	Aspect=Imp	0	root	_	_
-10	देलन	देना	AUX	AUX	Aspect=Perf|Tense=Past	9	compound	_	_
+10	देलन	देना	VERB	VERB	Aspect=Perf|Tense=Past	9	compound	_	_
 11	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1703
 # text = चलइत-चलइत जंगल में एगो कुटिया देखाई पड़ल ।
-1	चलइत-चलइत	चलइत-चलइत	ADV	ADV	_	6	advcl	_	_
+1	चलइत-चलइत	चलइत-चलइत	ADV	ADV	_	6	advmod	_	_
 2	जंगल	जगना	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	6	iobj	_	_
 3	में	में	ADP	ADP	_	2	case	_	_
 4	एगो	एगो	NUM	NUM	_	5	nummod	_	_
 5	कुटिया	कुटिया	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	dobj	_	_
 6	देखाई	देखना	VERB	VERB	Aspect=Imp	0	root	_	_
 7	पड़ल	पड़ना	AUX	AUX	Aspect=Perf|Tense=Past	6	compound	_	_
-8	।	।	PUNCT	PUNCT	_	6	null	_	_
+8	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = s1704
 # text = ऊ कुटिया में कोई चीज के कमी नऽ हल ।
@@ -2022,7 +2025,7 @@
 3	में	में	ADP	ADP	_	2	case	_	_
 4	कोई	कोई	PRON	PRON	_	5	amod	_	_
 5	चीज	चीज	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	7	dobj	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	कमी	कमी	NOUN	NOUN	Case=Acc|Person=3	0	root	_	_
 8	नऽ	नऽ	PART	PART	_	7	advmod	_	_
 9	हल	है	VERB	VERB	Aspect=Imp|Tense=Past	7	cop	_	_
@@ -2034,16 +2037,16 @@
 2	कुटिया	कुटिया	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
 3	में	में	ADP	ADP	_	2	case	_	_
 4	भगवान	भगवान	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	हार	हार	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	dobj	_	_
-7	भेजल	भेजल	ADJ	ADJ	_	8	acl	_	_
+7	भेजल	भेजल	VERB	VERB	_	8	acl	_	_
 8	समझके	समझके	VERB	VERB	_	9	advcl	_	_
 9	खाय	खाना	VERB	VERB	_	0	root	_	_
 10	-	-	PUNCT	PUNCT	_	9	punct	_	_
-11	पीये	पीये	AUX	AUX	_	9	compound	_	_
+11	पीये	पीये	VERB	VERB	_	9	compound	_	_
 12	आउ	आउ	CCONJ	CCONJ	_	13	cc	_	_
 13	रहे	रहना	VERB	VERB	Aspect=Prog	9	conj	_	_
-14	लगलन	लगना	AUX	AUX	Aspect=Prog|Tense=Pres	13	compound	_	_
+14	लगलन	लगना	VERB	VERB	Aspect=Prog|Tense=Pres	13	compound	_	_
 15	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1706
@@ -2051,26 +2054,26 @@
 1	एक	एक	NUM	NUM	_	2	nummod	_	_
 2	दिन	दिन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	iobj	_	_
 3	कुटिया	कुटिया	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	दुहारी	दुहारी	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	11	iobj	_	_
 6	पर	पर	ADP	ADP	_	5	case	_	_
 7	एगो	एगो	NUM	NUM	_	8	nummod	_	_
-8	सियार	सियार	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	_	_	_	_
+8	सियार	सियार	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 9	आन	आना	VERB	VERB	Aspect=Imp	11	advcl	_	_
-10	के	चीरना	AUX	AUX	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	बइठ	बइठना	VERB	VERB	Aspect=Imp	0	root	_	_
-12	गेल	जाना	AUX	AUX	Aspect=Perf	11	compound	_	_
+12	गेल	जाना	VERB	VERB	Aspect=Perf	11	compound	_	_
 13	।	।	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = s1707
 # text = साधुजी जब भोजन कयलन तब सियार के भी देलन ।
 1	साधुजी	साधुजी	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 2	जब	जब	PRON	PRON	_	4	obl	_	_
-3	भोजन	भोजन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	null	_	_
+3	भोजन	भोजन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	4	dobj	_	_
 4	कयलन	करना	VERB	VERB	Aspect=Perf	0	root	_	_
 5	तब	तब	PRON	PRON	_	9	obl	_	_
 6	सियार	सियार	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	iobj	_	_
-7	के	चीरना	ADP	ADP	_	6	case	_	_
+7	के	के	ADP	ADP	_	6	case	_	_
 8	भी	भी	PART	PART	_	6	dep	_	_
 9	देलन	देना	VERB	VERB	Case=Acc|Tense=Past	4	conj	_	_
 10	।	।	PUNCT	PUNCT	_	4	punct	_	_
@@ -2078,7 +2081,7 @@
 # sent_id = s1708
 # text = सियार के बढ़ियाँ भोजन मिलल तो ओहीं पर रहे लगल ।
 1	सियार	सियार	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	iobj	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	बढ़ियाँ	बढ़ियाँ	ADJ	ADJ	_	4	amod	_	_
 4	भोजन	भोजन	NOUN	NOUN	Case=Acc|Person=3	5	dobj	_	_
 5	मिलल	मिलना	VERB	VERB	Aspect=Perf	9	advcl	_	_
@@ -2086,7 +2089,7 @@
 7	ओहीं	ओहीं	DET	DET	Case=Loc|Number=Sing|Person=3	9	det	_	_
 8	पर	पर	ADP	ADP	_	7	case	_	_
 9	रहे	रहना	VERB	VERB	_	0	root	_	_
-10	लगल	लगना	AUX	AUX	_	9	compound	_	_
+10	लगल	लगना	VERB	VERB	_	9	compound	_	_
 11	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1709
@@ -2099,14 +2102,14 @@
 6	से	से	ADP	ADP	_	5	case	_	_
 7	भोजन	भोजन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	8	dobj	_	_
 8	पावे	पावे	VERB	VERB	_	0	root	_	_
-9	लाल	लाल	AUX	AUX	_	8	compound	_	_
+9	लाल	लाल	VERB	VERB	_	8	compound	_	_
 10	आउ	आउ	CCONJ	CCONJ	_	15	cc	_	_
 11	खा	खाना	VERB	VERB	_	15	advcl	_	_
 12	-	-	PUNCT	PUNCT	_	11	punct	_	_
 13	खा	खाना	VERB	VERB	_	11	compound	_	_
-14	के	चीरना	ADP	ADP	_	11	case	_	_
+14	के	के	ADP	ADP	_	11	case	_	_
 15	मोटा	मोटाना	VERB	VERB	_	8	conj	_	_
-16	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	15	compound	_	_
+16	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	15	compound	_	_
 17	।	।	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = s1710
@@ -2117,14 +2120,14 @@
 4	जंगल	जगना	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	6	iobj	_	_
 5	में	में	ADP	ADP	_	4	case	_	_
 6	घुमे-फिरे	घुमना-फिरना	VERB	VERB	_	17	advcl	_	_
-7	गेल	जाना	AUX	AUX	Aspect=Perf	6	compound	_	_
+7	गेल	जाना	VERB	VERB	Aspect=Perf	6	compound	_	_
 8	तो	तो	PRON	PRON	_	17	mark	_	_
 9	ओकरा	ओकरा	PRON	PRON	Case=Acc|Number=Sing|Person=3	13	dobj	_	_
 10	मोटा	मोटाना	ADJ	ADJ	_	13	iobj	_	_
 11	-	-	PUNCT	PUNCT	_	10	punct	_	_
 12	ताजा	ताजा	ADJ	ADJ	_	10	compound	_	_
 13	देख	देखना	VERB	VERB	_	17	advcl	_	_
-14	के	चीरना	AUX	AUX	_	13	case	_	_
+14	के	के	ADP	ADP	_	13	case	_	_
 15	एगो	एगो	NUM	NUM	_	16	nummod	_	_
 16	बाघ	बाघ	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	17	nsubj	_	_
 17	पुछलक	पुछना	VERB	VERB	Aspect=Perf	0	root	_	_
@@ -2138,9 +2141,9 @@
 25	मोटा	मोटाना	ADJ	ADJ	_	29	acl	_	_
 26	-	-	PUNCT	PUNCT	_	25	punct	_	_
 27	ताजा	ताजा	ADJ	ADJ	_	25	compound	_	_
-28	कइसे	कइसे	PRON	PRON	_	29	advmod	_	_
+28	कइसे	कइसे	ADV	ADV	_	29	advmod	_	_
 29	हो	होना	VERB	VERB	_	17	iobj	_	_
-30	गेले	जाना	AUX	AUX	Aspect=Perf	29	compound	_	_
+30	गेले	जाना	VERB	VERB	Aspect=Perf	29	compound	_	_
 31	हे	है	AUX	AUX	Aspect=Perf|Tense=Pres	30	aux	_	_
 32	।	।	PUNCT	PUNCT	_	17	punct	_	_
 
@@ -2148,7 +2151,7 @@
 # text = ऊ मोटाय के सब हाल सुनउलक ।
 1	ऊ	ऊ	PRON	PRON	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 2	मोटाय	मोटाय	VERB	VERB	_	6	acl	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	सब	सब	DET	DET	_	5	det	_	_
 5	हाल	हाल	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	6	dobj	_	_
 6	सुनउलक	सुनाना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
@@ -2160,12 +2163,12 @@
 2	से	से	ADP	ADP	_	1	case	_	_
 3	अगड़िए	अगड़िए	NOUN	NOUN	_	4	advmod	_	_
 4	आन	आना	VERB	VERB	_	9	advcl	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	ऊ	ऊ	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 7	पलंग	पलंग	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
 8	पर	पर	ADP	ADP	_	7	case	_	_
 9	पड़	पड़ना	VERB	VERB	_	0	root	_	_
-10	रहल	रहना	AUX	AUX	Aspect=Perf|Tense=Past	9	compound	_	_
+10	रहल	रहना	VERB	VERB	Aspect=Perf|Tense=Past	9	compound	_	_
 11	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = s1713
@@ -2191,15 +2194,15 @@
 7	दादा	दादा	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	iobj	_	_
 8	,	,	PUNCT	PUNCT	_	7	punct	_	_
 9	बाबा	बाबा	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	dobj	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	तूँ	तूँ	PRON	PRON	Case=Nom|Number=Sing|Person=2	12	nsubj	_	_
 12	खा	खाना	VERB	VERB	_	17	conj	_	_
-13	जयबें	जाना	AUX	AUX	Aspect=Imp|Tense=Fut	12	compound	_	_
+13	जयबें	जाना	VERB	VERB	Aspect=Imp|Tense=Fut	12	compound	_	_
 14	तो	तो	PRON	PRON	_	17	mark	_	_
 15	फिर	फिर	CCONJ	CCONJ	_	17	cc	_	_
 16	हमरो	हमरो	PRON	PRON	Case=Acc|Number=Sing|Person=3	17	dobj	_	_
 17	तकलीफ	तकलीफ	NOUN	NOUN	_	4	iobj	_	_
-18	होयत	होना	AUX	AUX	Aspect=Imp|Tense=Fut	17	conjunct	_	_
+18	होयत	होना	VERB	VERB	Aspect=Imp|Tense=Fut	17	conjunct	_	_
 19	।	।	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = s1715
@@ -2238,7 +2241,7 @@
 # sent_id = s1717
 # text = बाबा जइसन कहथुन ओइसन हम करबउ ।
 1	बाबा	बाबा	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
-2	जइसन	जइसन	PART	PART	_	3	advmod	_	_
+2	जइसन	जइसन	PART	PART	_	3	dep	_	_
 3	कहथुन	कहथुन	VERB	VERB	_	6	advcl	_	_
 4	ओइसन	ओइसन	PART	PART	_	6	advmod	_	_
 5	हम	हम	PRON	PRON	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
@@ -2256,10 +2259,10 @@
 7	तो	तो	PRON	PRON	_	12	mark	_	_
 8	बाघ	बाघ	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 9	कुटिया	कुटिया	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	11	nmod	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	पीछे	पीछे	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	12	iobj	_	_
 12	सुने	सुनाना	VERB	VERB	_	0	root	_	_
-13	लगल	लगना	AUX	AUX	Aspect=Imp|Tense=Pres	12	compound	_	_
+13	लगल	लगना	VERB	VERB	Aspect=Imp|Tense=Pres	12	compound	_	_
 14	।	।	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = s1719
@@ -2273,23 +2276,23 @@
 7	तो	तो	PRON	PRON	_	13	mark	_	_
 8	बाबा	बाबा	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 9	बाघ	बाघ	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	11	dobj	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	रहे	रहना	VERB	VERB	Case=Dat	13	advcl	_	_
 12	खातिर	खातिर	ADP	ADP	_	11	case	_	_
 13	हुकम	हुकम	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	0	root	_	_
 14	दे	देना	VERB	VERB	_	13	conjunct	_	_
-15	देलन	देना	AUX	AUX	Aspect=Imp|Number=Sing|Person=3	14	compound	_	_
+15	देलन	देना	VERB	VERB	Aspect=Imp|Number=Sing|Person=3	14	compound	_	_
 16	।	।	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = s1720
 # text = दुनों बाबा के कुटी भिरू रहे लगलन ।
 1	दुनों	दुनों	NUM	NUM	_	6	nsubj	_	_
 2	बाबा	बाबा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
-3	के	चीरना	ADP	ADP	_	2	case	_	_
+3	के	के	ADP	ADP	_	2	case	_	_
 4	कुटी	कुटी	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	6	iobj	_	_
 5	भिरू	भिरू	ADP	ADP	_	4	case	_	_
 6	रहे	रहना	VERB	VERB	_	0	root	_	_
-7	लगलन	लगना	AUX	AUX	Aspect=Prog	6	compound	_	_
+7	लगलन	लगना	VERB	VERB	Aspect=Prog	6	compound	_	_
 8	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = s1721
@@ -2297,7 +2300,7 @@
 1	कुछ	कुछ	DET	DET	_	2	det	_	_
 2	दिन	दिन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	obl	_	_
 3	बीतला	बीतना	VERB	VERB	_	9	advcl	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	बाद	बाद	ADP	ADP	_	3	case	_	_
 6	बाघ	बाघ	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 7	सियार	सियार	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	9	iobj	_	_
@@ -2306,14 +2309,14 @@
 10	कि	कि	SCONJ	SCONJ	_	20	mark	_	_
 11	साधु	साधु	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	20	nsubj	_	_
 12	बाबा	बाबा	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	11	flat	_	_
-13	के	चीरना	ADP	ADP	_	12	case	_	_
+13	के	के	ADP	ADP	_	12	case	_	_
 14	बनावे	बनाना	VERB	VERB	_	20	advcl	_	_
 15	-	-	PUNCT	PUNCT	_	14	punct	_	_
 16	खाय	खाना	VERB	VERB	_	14	compound	_	_
 17	में	में	ADP	ADP	_	14	case	_	_
 18	बड़ी	बड़ी	ADJ	ADJ	_	19	amod	_	_
 19	तकलीफ	तकलीफ	NOUN	NOUN	_	20	compound	_	_
-20	होबऽ	होना	AUX	AUX	Aspect=Hab|Tense=Pres	9	iobj	_	_
+20	होबऽ	होना	VERB	VERB	Aspect=Hab|Tense=Pres	9	iobj	_	_
 21	हइन	है	AUX	AUX	Aspect=Hab|Tense=Pres	20	aux	_	_
 22	।	।	PUNCT	PUNCT	_	9	punct	_	_
 
@@ -2325,11 +2328,11 @@
 4	-	-	PUNCT	PUNCT	_	3	punct	_	_
 5	विआह	विआह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	3	compound	_	_
 6	करा	कराना	VERB	VERB	_	3	conjunct	_	_
-7	देतिअइन	देना	AUX	AUX	Aspect=Hab|Tense=Pres	6	compound	_	_
+7	देतिअइन	देना	VERB	VERB	Aspect=Hab|Tense=Pres	6	compound	_	_
 8	हल	है	AUX	AUX	Tense=Fut	7	aux	_	_
 9	तो	तो	PRON	PRON	_	10	mark	_	_
 10	अच्छा	अच्छा	ADJ	ADJ	_	0	root	_	_
-11	हलइ	है	VERB	VERB	Aspect=Imp|Tense=Fut	10	conjunct	_	_
+11	हलइ	है	AUX	AUX	Aspect=Imp|Tense=Fut	10	aux	_	_
 12	।	।	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = s1723
@@ -2338,23 +2341,23 @@
 2	बिहान	बिहान	NOUN	NOUN	Case=Acc	8	obl	_	_
 3	रानी	रानी	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 4	घर	घर	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	काम-काज	काम-काज	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	8	dobj	_	_
 7	में	में	ADP	ADP	_	6	case	_	_
 8	लग	लगना	VERB	VERB	_	0	root	_	_
-9	गेलई	जाना	AUX	AUX	Aspect=Perf|Tense=Pres	8	compound	_	_
+9	गेलई	जाना	VERB	VERB	Aspect=Perf|Tense=Pres	8	compound	_	_
 10	आओ	आओ	CCONJ	CCONJ	_	18	cc	_	_
 11	दुनु	दुनु	NUM	NUM	_	12	nummod	_	_
 12	इयार	इयार	NOUN	NOUN	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
 13	नदी	नदी	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	14	nmod	_	_
 14	किछारे	किछारे	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	18	iobj	_	_
 15	जा	जाना	VERB	VERB	_	18	advcl	_	_
-16	के	चीरना	AUX	AUX	_	15	case	_	_
+16	के	के	AUX	AUX	_	15	case	_	_
 17	राय	राय	NOUN	NOUN	Case=Acc|Number=Plur|Person=3	18	conjunct	_	_
 18	कयलन	करना	VERB	VERB	Aspect=Perf|Tense=Past	8	conj	_	_
 19	कि	कि	SCONJ	SCONJ	_	26	mark	_	_
 20	कल्हे	कल्हे	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	22	dep	_	_
-21	के	चीरना	ADP	ADP	_	20	case	_	_
+21	के	के	ADP	ADP	_	20	case	_	_
 22	तरह	तरह	ADV	ADV	_	26	advmod	_	_
 23	आजो	आजो	NOUN	NOUN	_	26	obl	_	_
 24	तू	तू	PRON	PRON	Case=Nom|Number=Sing|Person=2	26	nsubj	_	_
@@ -2366,7 +2369,7 @@
 # text = एही सोच के रात में खा - पीके दूनो चल देलन ।
 1	एही	एही	PRON	PRON	Case=Acc|Number=Sing|Person=3	2	dobj	_	_
 2	सोच	सोचना	VERB	VERB	_	10	advcl	_	_
-3	के	चीरना	VERB	VERB	_	2	case	_	_
+3	के	के	VERB	VERB	_	2	case	_	_
 4	रात	रात	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	obl	_	_
 5	में	में	ADP	ADP	_	4	case	_	_
 6	खा	खाना	VERB	VERB	_	10	advcl	_	_
@@ -2374,7 +2377,7 @@
 8	पीके	पीना	VERB	VERB	_	6	compound	_	_
 9	दूनो	दूनो	NUM	NUM	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
 10	चल	चलना	VERB	VERB	_	0	root	_	_
-11	देलन	देना	AUX	AUX	Aspect=Perf	10	compound	_	_
+11	देलन	देना	VERB	VERB	Aspect=Perf	10	compound	_	_
 12	।	।	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = s1725
@@ -2384,7 +2387,7 @@
 3	जाइत	जाना	VERB	VERB	_	1	compound	_	_
 4	ओहनी	ओहनी	PRON	PRON	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
 5	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	एगो	एगो	NUM	NUM	_	8	nummod	_	_
 8	महल	महल	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	10	iobj	_	_
 9	में	में	ADP	ADP	_	8	case	_	_
@@ -2396,14 +2399,14 @@
 1	राजा	राजा	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 2	अपन	अपन	PRON	PRON	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 3	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	dobj	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	रहे	रहना	VERB	VERB	Case=Dat	10	advcl	_	_
 6	ला	लाना	ADP	ADP	_	5	case	_	_
 7	एगो	एगो	NUM	NUM	_	9	nummod	_	_
 8	अलग	अलग	ADV	ADV	_	9	amod	_	_
 9	महल	महल	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	dobj	_	_
 10	बना	बनाना	VERB	VERB	Aspect=Perf	0	root	_	_
-11	देलन	देना	AUX	AUX	Aspect=Perf	10	compound	_	_
+11	देलन	देना	VERB	VERB	Aspect=Perf	10	compound	_	_
 12	हल	है	AUX	AUX	Aspect=Perf|Tense=Past	11	aux	_	_
 13	।	।	PUNCT	PUNCT	_	10	punct	_	_
 
@@ -2425,19 +2428,19 @@
 2	से	से	ADP	ADP	_	1	case	_	_
 3	ओकरा	ओकरा	PRON	PRON	Case=Loc|Number=Sing|Person=3	9	iobj	_	_
 4	में	में	ADP	ADP	_	3	case	_	_
-5	आवे	आना	VERB	VERB	_	_	_	_	_
+5	आवे	आना	VERB	VERB	_	9	acl	_	_
 6	-	-	PUNCT	PUNCT	_	5	punct	_	_
 7	जाय	जाना	VERB	VERB	_	5	compound	_	_
-8	के	चीरना	ADP	ADP	_	5	case	_	_
+8	के	के	ADP	ADP	_	5	case	_	_
 9	रस्ता	रस्ता	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	0	root	_	_
 10	ना	ना	PART	PART	_	11	neg	_	_
-11	हल	है	VERB	VERB	Tense=Past	_	_	_	_
+11	हल	है	AUX	AUX	Tense=Past	9	cop	_	_
 12	बाकि	बाकि	CCONJ	CCONJ	_	21	cc	_	_
 13	एगो	एगो	NUM	NUM	_	14	nummod	_	_
 14	लोहा	लोहा	NOUN	NOUN	Case=Inst|Number=Sing|Person=3	16	nmod	_	_
-15	के	चीरना	ADP	ADP	_	14	case	_	_
+15	के	के	ADP	ADP	_	14	case	_	_
 16	छड़	छड़	NOUN	NOUN	Case=Inst|Person=3	20	nmod	_	_
-17	के	चीरना	ADP	ADP	_	16	case	_	_
+17	के	के	ADP	ADP	_	16	case	_	_
 18	बड़का	बड़का	ADJ	ADJ	_	20	amod	_	_
 19	गो	गो	NUM	NUM	_	18	dep	_	_
 20	फाटक	फाटक	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	21	dobj	_	_
@@ -2457,13 +2460,13 @@
 1	फिन	फिन	CCONJ	CCONJ	_	5	advmod	_	_
 2	सगरो	सगरो	DET	DET	_	5	det	_	_
 3	घूम-फिर	घूम-फिर	VERB	VERB	_	5	advcl	_	_
-4	के	चीरना	AUX	AUX	_	3	case	_	_
-5	देखलन	देखना	AUX	AUX	Aspect=Perf	9	advcl	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
+5	देखलन	देखना	VERB	VERB	Aspect=Perf	9	advcl	_	_
 6	तो	तो	PRON	PRON	_	9	mark	_	_
 7	कनहुँ	कनहुँ	PRON	PRON	Case=Dat|Number=Sing|Person=3	9	obl	_	_
 8	से	से	ADP	ADP	_	7	case	_	_
 9	घुसे	घुसना	VERB	VERB	_	11	nmod	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	राह	राह	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	13	dobj	_	_
 12	ना	ना	PART	PART	_	13	neg	_	_
 13	मिलल	मिलना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
@@ -2474,16 +2477,16 @@
 1	फिन	फिन	CCONJ	CCONJ	_	17	cc	_	_
 2	बाघ	बाघ	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	17	nsubj	_	_
 3	खिड़की	खिड़की	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
-4	के	चीरना	ADP	ADP	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	छड़	छड़	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	dobj	_	_
-6	के	चीरना	ADP	ADP	_	5	case	_	_
+6	के	के	ADP	ADP	_	5	case	_	_
 7	गते	गते	ADV	ADV	_	10	advmod	_	_
 8	-	-	PUNCT	PUNCT	_	7	punct	_	_
 9	गते	गते	ADV	ADV	_	7	compound	_	_
 10	ममोर	ममोर	VERB	VERB	_	17	advcl	_	_
-11	के	चीरना	AUX	AUX	_	10	case	_	_
+11	के	के	ADP	ADP	_	10	case	_	_
 12	सियार	सियार	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	17	iobj	_	_
-13	के	चीरना	ADP	ADP	_	12	case	_	_
+13	के	के	ADP	ADP	_	12	case	_	_
 14	जाय	जाना	NOUN	NOUN	_	17	acl	_	_
 15	भर	भर	ADP	ADP	_	14	case	_	_
 16	जगह	जगह	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	17	dobj	_	_
@@ -2496,10 +2499,10 @@
 23	तुँ	तुँ	PRON	PRON	Case=Nom|Number=Sing|Person=2	28	nsubj	_	_
 24	घुसके	घुसना	VERB	VERB	_	28	advcl	_	_
 25	फाटक	फाटक	NOUN	NOUN	Case=Gen|Number=Sing|Person=3	27	nmod	_	_
-26	के	चीरना	ADP	ADP	_	25	case	_	_
+26	के	के	ADP	ADP	_	25	case	_	_
 27	किल्ली	किल्ली	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	28	dobj	_	_
 28	खोल	खोलना	VERB	VERB	_	21	iobj	_	_
-29	दीहें	दीहें	AUX	AUX	Aspect=Imp|Tense=Fut	28	compound	_	_
+29	दीहें	दीहें	VERB	VERB	Aspect=Imp|Tense=Fut	28	compound	_	_
 30	।	।	PUNCT	PUNCT	_	17	punct	_	_
 
 # sent_id = s1732
@@ -2509,7 +2512,7 @@
 3	आउ	आउ	CCONJ	CCONJ	_	5	cc	_	_
 4	किल्ली	किल्ली	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	5	dobj	_	_
 5	खोल	खोलना	VERB	VERB	_	7	acl:relcl	_	_
-6	देलक	देना	AUX	AUX	Aspect=Perf	5	compound	_	_
+6	देलक	देना	VERB	VERB	Aspect=Perf	5	compound	_	_
 7	तब	तब	PRON	PRON	_	10	nmod	_	_
 8	बाघ	बाघ	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 9	भी	भी	PART	PART	_	8	dep	_	_
@@ -2522,7 +2525,7 @@
 2	हे	है	AUX	AUX	Aspect=Prog|Tense=Pres	1	aux	_	_
 3	कि	कि	SCONJ	SCONJ	_	10	mark	_	_
 4	राजा	राजा	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
-5	के	चीरना	ADP	ADP	_	4	case	_	_
+5	के	के	ADP	ADP	_	4	case	_	_
 6	एगो	एगो	NUM	NUM	_	9	nummod	_	_
 7	खुब	खुब	ADV	ADV	_	8	advmod	_	_
 8	सुन्नर	सुन्नर	ADJ	ADJ	_	9	amod	_	_
@@ -2536,14 +2539,14 @@
 1	राजा	राजा	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 2	घरे	घरे	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	3	iobj	_	_
 3	आन	आना	VERB	VERB	_	5	advcl	_	_
-4	के	चीरना	AUX	AUX	_	3	case	_	_
+4	के	के	ADP	ADP	_	3	case	_	_
 5	गमछा	गमछा	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	6	dobj	_	_
 6	माँगलक	मांगना	VERB	VERB	Aspect=Perf	0	root	_	_
 7	तो	तो	PRON	PRON	_	6	mark	_	_
 8	वजीर	वजीर	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 9	लाके	लाना	VERB	VERB	_	10	advcl	_	_
 10	देखा	देखना	VERB	VERB	Aspect=Perf	6	advcl	_	_
-11	देलक	देना	AUX	AUX	Aspect=Perf|Tense=Past	10	compound	_	_
+11	देलक	देना	VERB	VERB	Aspect=Perf|Tense=Past	10	compound	_	_
 12	।	।	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = s1735
@@ -2561,12 +2564,12 @@
 # text = अगर जगा के ले चलब तो डर के मारे मरजायत ।
 1	अगर	अगर	SCONJ	SCONJ	_	4	mark	_	_
 2	जगा	जगाना	VERB	VERB	Aspect=Perf	4	advcl	_	_
-3	के	चीरना	AUX	AUX	_	2	case	_	_
+3	के	के	AUX	AUX	_	2	case	_	_
 4	ले	लेना	VERB	VERB	Aspect=Imp	10	advcl	_	_
-5	चलब	चलना	AUX	AUX	Aspect=Imp|Tense=Fut	4	compound	_	_
+5	चलब	चलना	VERB	VERB	Aspect=Imp|Tense=Fut	4	compound	_	_
 6	तो	तो	PRON	PRON	_	10	mark	_	_
 7	डर	डरना	NOUN	NOUN	Case=Inst|Person=3	10	iobj	_	_
-8	के	चीरना	ADP	ADP	_	7	case	_	_
+8	के	के	ADP	ADP	_	7	case	_	_
 9	मारे	मारना	NOUN	NOUN	_	7	dep	_	_
 10	मरजायत	मरना	VERB	VERB	Aspect=Imp|Tense=Fut	0	root	_	_
 11	।	।	PUNCT	PUNCT	_	10	punct	_	_
@@ -2578,11 +2581,11 @@
 3	छव	छव	NUM	NUM	_	6	dobj	_	_
 4	-	-	PUNCT	PUNCT	_	3	punct	_	_
 5	पाँच	पाँच	NUM	NUM	_	3	compound	_	_
-6	करके	करना	VERB	VERB	_	15	advcl	_	_
-7	पलंग	पलंग	NOUN	NOUN	Number=Sing|Person=3	15	iobj	_	_
+6	करके	करना	VERB	VERB	_	14	advcl	_	_
+7	पलंग	पलंग	NOUN	NOUN	Number=Sing|Person=3	14	iobj	_	_
 8	सहित	सहित	ADP	ADP	_	7	dep	_	_
 9	लड़की	लड़की	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing|Person=3	13	dobj	_	_
-10	के	चीरना	ADP	ADP	_	9	case	_	_
+10	के	के	ADP	ADP	_	9	case	_	_
 11	पीठ	पीठ	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	13	iobj	_	_
 12	पर	पर	ADP	ADP	_	11	case	_	_
 13	उठाके	उठाना	VERB	VERB	_	14	advcl	_	_
@@ -2599,10 +2602,10 @@
 5	जगल	जगल	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	10	iobj	_	_
 6	में	में	ADP	ADP	_	5	case	_	_
 7	लड़की	लड़की	NOUN	NOUN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-8	के	चीरना	ADP	ADP	_	7	case	_	_
+8	के	के	ADP	ADP	_	7	case	_	_
 9	नीन	नीन	NOUN	NOUN	Case=Acc|Number=Sing|Person=3	10	dobj	_	_
 10	टूट	टूटना	VERB	VERB	_	13	advcl	_	_
-11	गेल	जाना	AUX	AUX	Aspect=Perf|Tense=Past	10	compound	_	_
+11	गेल	जाना	VERB	VERB	Aspect=Perf|Tense=Past	10	compound	_	_
 12	तऽ	तऽ	SCONJ	SCONJ	_	13	mark	_	_
 13	देखलक	देखना	VERB	VERB	Aspect=Perf|Tense=Past	0	root	_	_
 14	कि	कि	SCONJ	SCONJ	_	21	mark	_	_
@@ -2613,14 +2616,14 @@
 19	पीठ	पीठ	NOUN	NOUN	Case=Loc|Number=Sing|Person=3	21	iobj	_	_
 20	पर	पर	ADP	ADP	_	19	case	_	_
 21	ले	लेना	VERB	VERB	_	13	iobj	_	_
-22	जाइत	जाना	AUX	AUX	Aspect=Prog	21	compound	_	_
+22	जाइत	जाना	VERB	VERB	Aspect=Prog	21	compound	_	_
 23	हे	है	AUX	AUX	Aspect=Prog|Tense=Pres	22	aux	_	_
 24	।	।	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = s1739
 # text = डर के मारे ओकर खुन सुख गेल ।
 1	डर	डरना	NOUN	NOUN	Case=Acc|Person=3	6	iobj	_	_
-2	के	चीरना	ADP	ADP	_	1	case	_	_
+2	के	के	ADP	ADP	_	1	case	_	_
 3	मारे	मारना	ADP	ADP	_	1	case	_	_
 4	ओकर	ओकर	PRON	PRON	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 5	खुन	खुन	NOUN	NOUN	Case=Acc|Person=3	6	dobj	_	_
