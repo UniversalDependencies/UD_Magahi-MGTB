@@ -33,7 +33,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: manual native
-Contributors: Kumar, Mohit; Alok, Deepak; Kumar, Ritesh; Ojha, Atul Kr.; Zeman, Daniel
+Contributors: Raj, Mohit; Alok, Deepak; Kumar, Ritesh; Ojha, Atul Kr.; Zeman, Daniel
 Contributing: here
 Contact: linguistics.kmi@gmail.com, shashwatup9k@gmail.com, zeman@ufal.mff.cuni.cz
 ===============================================================================
