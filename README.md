@@ -4,7 +4,7 @@ The [Magahi](https://en.wikipedia.org/wiki/Magahi_language) UD Treebank (MGTB) i
 
 
 # Introduction
-The [Magahi](https://en.wikipedia.org/wiki/Magahi_language) UD Treebank (MGTB) v2.5 consists of 550 sentences. This Treebank is a part of the [Universal Dependency treebank](http://universaldependencies.org/) project. MGTB data contains syntactic annotation according to dependency-constituency schema, as well as morphological tags and lemmas. In this data, XPOS is annotated  according to [Bureau of Indian Standards (BIS) Part Of Speech (POS) tagset](http://tdil-dc.in/tdildcMain/articles/134692Draft%20POS%20Tag%20standard.pdf).
+The [Magahi](https://en.wikipedia.org/wiki/Magahi_language) UD Treebank (MGTB) v2.6 consists of 550 sentences. This Treebank is a part of the [Universal Dependency treebank](http://universaldependencies.org/) project. MGTB data contains syntactic annotation according to dependency-constituency schema, as well as morphological tags and lemmas. In this data, XPOS is annotated  according to [Bureau of Indian Standards (BIS) Part Of Speech (POS) tagset](http://tdil-dc.in/tdildcMain/articles/134692Draft%20POS%20Tag%20standard.pdf).
 
 
 # Acknowledgments
