@@ -27,6 +27,7 @@ The [Magahi](https://en.wikipedia.org/wiki/Magahi_language) UD Treebank (MGTB) v
 Data available since: UD v2.6
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction news
 Lemmas: manual native
 UPOS: converted from manual
